@@ -31,6 +31,17 @@ print(date)
 
 -> Data type specifies the type of value holds. this is required in programming to do operation
 without causing an error. In python, we can print the type of any operator using type function.
+
+
+Data Types :
+
+1.Text  = str
+2.Numeric = int, float, complex
+3.Sequence = list, tuple, range
+4.Mapping = dict
+5.Set = set, fronzset
+6.Boolean = bool
+7.Binary = bytes, bytearray, memoryview
 '''
 
 a=1
