@@ -42,7 +42,7 @@ The series focuses on **clear explanations**, **hands-on practice**, and **real-
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/vivek2004-sec/python-complete-series.git
+   git clone https://github.com/vivek2004-sec/Python-Complete-Series.git
    ```
 2. Navigate into the folder:
 
