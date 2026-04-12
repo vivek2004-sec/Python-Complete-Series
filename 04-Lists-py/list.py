@@ -24,12 +24,12 @@
 # print(numbers)
 
 
-# list1=[2,4,6,7,8,9]
+list1=[2,4,6,7,8,9]
 
-# list2=[4,6,9]
+list2=[4,6,9]
 
-# list3=list1 and list2
-# # list4=list1 or list2
+list3=list1 and list2
+# list4=list1 or list2
 
 # print(list3)
 # # print(list4)
@@ -67,6 +67,6 @@
 # print(upper_words)
 # print(capitalized_words)
 
-Cities=["mumbai", "pune", "kolhapur","sangali"]
-Cities.index("pune")
-print(Cities)
+# Cities=["mumbai", "pune", "kolhapur","sangali"]
+# Cities.index("pune")
+# print(Cities)
