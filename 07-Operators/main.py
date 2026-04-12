@@ -1,20 +1,26 @@
-# print(5+7)
-# print(99-34)
-# print(15+6)
-# print(15-6)
+# Variables
+a = 15
+b = 4
 
-# Arithmetic Operators
+# Arithmetic Operators:
 
-# + = Addition 
-# - = Subtraction
-# * = Multiplication
-# / = Division 
+# Addition
+print("Addition:", a + b)  
 
-print(7+99)
-print(6-4)
-print(44*2)
-print(45/5)
-print(7//3)
-print(75%10)
-print(5%3)
-print(5**4) # 5**4 = 5*5*5*5
+# Subtraction
+print("Subtraction:", a - b) 
+
+# Multiplication
+print("Multiplication:", a * b)  
+
+# Division
+print("Division:", a / b) 
+
+# Floor Division
+print("Floor Division:", a // b)  
+
+# Modulus
+print("Modulus:", a % b) 
+
+# Exponentiation
+print("Exponentiation:", a ** b)
