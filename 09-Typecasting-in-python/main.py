@@ -26,7 +26,7 @@ b= 5
 
 print(str(a) + str(b))
 
-# Explicit Typecasting:
+# Explicit Typecasting: We have to do it on our own.
 
 string= "15"
 number= 7
@@ -56,7 +56,7 @@ sum = string + B
 
 print("sum is:", sum)
 
-# implicit
+# implicit: Python does it on his own.
 
 t=5.6
 u= 7
