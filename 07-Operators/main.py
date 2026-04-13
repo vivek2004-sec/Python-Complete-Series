@@ -42,9 +42,15 @@ print(a == b)
 a = 10
 b = 22
 
-print(a and b)
+print(a and b) 
+# output = 22
+# here both a and b has non-zero values which means both are true, so and operator returns the last value. 
 print(a or b)
+# output = 10
+# or returns first true value
 print(not a )
+# a = 10 which is True so it flips the value to False.
+# if a = True then print(not a) == print(not 10) == False.
 print(not b)
 
 
