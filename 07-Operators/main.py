@@ -71,11 +71,15 @@ print(a << 2)
 a = 10
 b = a
 print(b)
-b += a
+b += a 
+# (b += a) = (b = b + a) 
+
 print(b)
-b -= a
+# (b -= a ) = (b = b - a)
 print(b)
+
 b *= a
+# (b *= a) = (b = b * a)
 print(b)
 
 
