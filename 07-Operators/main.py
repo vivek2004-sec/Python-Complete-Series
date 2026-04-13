@@ -93,3 +93,49 @@ d >>= s
 # d >>= s : d = d >> s
 # d >>= s : d / 2^s
 print(d)
+
+
+
+# Identity Operators:
+
+#  IS
+a = 10 
+b = a
+print(a == b)
+print(a is b)
+'''
+Here, a = 10 and b = a so, b = 10 aswell
+a is b says that same values located at same memory locations'''
+
+
+a = [1,2,3]
+b = [1,2,3]
+print(a is b)
+'''
+Here, it means that both a and b shares the same values but a and b are different memory locations in which the same values are assigned.
+a ──► [1,2,3]   (Object 1)
+
+b ──► [1,2,3]   (Object 2)      
+'''
+
+a = [1, 2, 3]
+b = a
+
+print(a is b)  # True
+'''
+a ─┐
+   ├──► [1,2,3]
+b ─┘
+'''
+
+# is not -> 👉 Checks if two variables are NOT the same object (memory)
+
+a = [1,2,3]
+b = [1,2,3]
+print(a is not b)
+# a ──► [1,2,3]   (Object 1)
+# b ──► [1,2,3]   (Object 2)
+
+a = [1,2,3]
+b = a
+print(a is not b)
