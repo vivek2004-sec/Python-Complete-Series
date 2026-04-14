@@ -1,9 +1,12 @@
-# Match case statement
+# Match case statement:
+# match-case statement is Python's version of a switch-case found in other languages.
+# It allows us to match a variable's value against a set of patterns.
+
 
 x = int(input("Enter the value of x:"))
 # x is the variable to match.
 
-match x:
+match x:    
     # if x is 0.
     case 0:
         
