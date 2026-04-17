@@ -54,26 +54,53 @@ dic = {'a': 1, 'b': 2, 'c': 3}
 
 for v in dic:
    print(v)
-# shows only keys
+# shows only keys.
 
 for value in dic.values():
    print(value)
 # Shows only values.
 
-# for key in dic.keys():
-#    print(key)
+for key in dic.keys():
+   print(key)
+# Shows only Keys.
 
 
-# for items in dic:
-#    print(dic[items])
+for items in dic:
+   print(dic[items])
+# Shows only values.
 
-
-# for key, value in dic.items():
-#    print(key, value)
-
-
-
-
+for key, value in dic.items():
+   print(key, value)
+# Shows both Keys and values.
 
 
 
+#  For range:
+import time
+
+for i in range(5):
+   print(i)
+
+for i in range(0,6):
+   print(i)
+   
+for i in range(1,10, 2):
+   print(i)
+   
+   
+
+# For indexes:
+
+arr = [10, 20, 30]
+
+for index, value in enumerate(arr):
+   print(index, value)
+   
+   
+
+
+
+fruits = ['mango', 'kiwi', 'orange', 'banana', 'grapes']
+
+for index, value in enumerate(fruits):
+   print(index, value)
