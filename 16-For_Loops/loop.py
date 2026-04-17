@@ -14,40 +14,62 @@ lists, tuples, sets and dictionaries.
 
 
 
-ls = ['vivek', 'ranjit', 'sujal', 'vijay']
+# For String:
 
-for names in ls:
-   print(names)
+name = "vivek"
 
-name = str(input("Enter the name: "))
-for i in name:
-   print(i)
-
-num = (1,2,3,4,455)
-
-for numbers in num:
-   print(numbers)
+for ch in name:
+   print(ch)
 
 
 
+# For List:
+
+ls = ['Mango', 'Kiwi', 'Banana', 'Watermelon', 'Grapes']
+
+for fruits in ls:
+   print(fruits)
 
 
+# For Tuple:
+
+tup = (1, 2, 3, 4, 5)
+
+for num in tup:
+   print(num)
+
+   
+# For Set:
+
+s = {1, 2, 3, 4}
+
+for num in s:
+   print(num)
 
 
+# For Dictionary:
 
 
+dic = {'a': 1, 'b': 2, 'c': 3}
+
+for v in dic:
+   print(v)
+# shows only keys
+
+for value in dic.values():
+   print(value)
+# Shows only values.
+
+# for key in dic.keys():
+#    print(key)
 
 
+# for items in dic:
+#    print(dic[items])
 
 
-
-
-
-
-
-
-
-
+# for key, value in dic.items():
+#    print(key, value)
 
 
 
