@@ -2,12 +2,13 @@
 
 as we know function is used to break down the code into the small parts. and make it more easier.
 
-1.Default Arguments:{Arguments are generally specified.}
-def name(first_name= "vivek", middle_name="ranjit", sir_name="kamble"):
-print("The name is :",first_name,middle_name,sir_name)
-name("james","lee")
+1.Default Arguments:
+In this we give pre-defined values to the function parameters.and python uses it automatically.
+-> non-default arguments cannot come after default arguments.
+-> For Eg: def average(b, a = 4) in this non-default argument came first.
 
-2.keywords Arguments:{You can just simply change the order.}
+2.keywords Arguments:
+You can just simply change the order. but we have to explicitly specify the arguments very carefully.
 def average(a=4,b=6):
 print("The average is:", (a +b)//2)
 average(b=22,a=6)
