@@ -17,3 +17,9 @@ else:
 
 a = (1, 2, 3, 4, [1, 2, 3, 4, 5], {'vivek':1, 'sujal': 3}, 'vivek', 'usual')
 print(a)
+
+
+tup1 = (2, 3, 4, 5)
+tup2 = ('vivek', 'kamble')
+tup3 = tup1 + tup2
+print(tup3)
