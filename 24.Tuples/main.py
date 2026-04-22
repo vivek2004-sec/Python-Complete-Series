@@ -23,3 +23,30 @@ tup1 = (2, 3, 4, 5)
 tup2 = ('vivek', 'kamble')
 tup3 = tup1 + tup2
 print(tup3)
+
+
+tup = tuple('GEEKSFORGEEKS')
+print(tup[1:])
+print(tup[::-1])
+print(tup[4:9])
+
+
+tup = (1, 2, 3, 4, 5)
+a, *b, c = tup
+print(a) 
+print(b) 
+print(c)
+
+fru = ("mango", "apple", "orange", 'pineapple')
+*a, b, c = fru
+print(a)
+print(b)
+print(c)
+
+
+cars = ('nissan', 'swift', 'thar', 'bmw', 'sierra', 'mercedes', 'vokswagen')
+a, b, *c, d = cars
+print(a)
+print(b)
+print(c)
+print(d)
