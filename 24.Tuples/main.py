@@ -50,3 +50,17 @@ print(a)
 print(b)
 print(c)
 print(d)
+
+
+# Reversing a Tuple
+
+# Most common and Pythonic way to reverse a tuple is by using slicing with a step of -1, here is how we can do it:
+
+num = (2, 3, 4, 5, 6, 7, 8)
+print(num[::-1])
+
+
+t = (1, 2, 3, 4, 5)  
+# Reverse the tuple using the built-in reversed() function and convert it back to a tuple
+rev = tuple(reversed(t))
+print(rev)
