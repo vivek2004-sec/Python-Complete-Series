@@ -5,3 +5,15 @@ def square(n):
 
 square(5)
 print(square.__doc__)
+
+
+def average(a, b):
+    '''Takes the sum of the a +b and divide by 2'''
+
+    average = a +b / 2
+    print(average)
+
+a = 5
+b = 6
+average(a,b)
+print(average.__doc__)
