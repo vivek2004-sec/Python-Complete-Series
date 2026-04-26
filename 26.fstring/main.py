@@ -10,3 +10,10 @@ print(txt)
 print(type(txt))
 for i in txt:
     print(i)
+    
+    
+    
+name = 'vivek'
+age = 22
+intro = f"Hello, my name is {name}, my age is {age}."
+print(intro)
