@@ -7,6 +7,18 @@ def num(n):
 print(num(7))
 
 
+a = ["mango", 'guava', 'banana', 'kiwi']
+
+
+def list_elements(lst, index = 0):
+    if index == len(lst):
+        return
+    print(lst[index])
+    list_elements(lst, index + 1)
+
+print(list_elements(a, 0))
+
+
 
 
 def factorial (n):
