@@ -1,3 +1,14 @@
+def num(n):
+    if (n==0):
+        return
+    print(n)
+    num(n-1)
+
+print(num(7))
+
+
+
+
 def factorial (n):
     if n==0 or n==1:
         return 1
@@ -80,7 +91,7 @@ def even_num(n):
     # a = even_num
     # print(a)
     if n % 2 == 0:
-        print(even_num(),"Given number is Even.")
+        print("Given number is Even.")
         
 even_num(6)
 
@@ -88,7 +99,7 @@ even_num(6)
 # odd 
 def odd_num(n):
      if n % 2 != 0:
-        print(odd_num(), "Given number is odd.")
+        print( "Given number is odd.")
    
    
 odd_num(7)     
