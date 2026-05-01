@@ -1,17 +1,34 @@
-# cities = {'Tokyo', 'Madrid', 'Berlin', 'Delhi'}
-# cities2 = {'Tokyo', 'Seoul', 'Kabul', 'Madrid'}
-# cities3 = cities.union(cities2)
-# print(cities3)
+# Adding Elements to set:
 
-# students = {"vivek", "sahil", "sujal", "karan"}
-# students2 = {"amit", "sudhir", "vikrant", "chetan"}
-# students3 = students.isdisjoint(students2)
-# print(students3)
-# print(type(students3))
-# students4 = students.issuperset(students2)
-# print(students4)
-# print(type(students4))
+cities = {"Mumbai", "Delhi", "Pune", "Kolhapur", "Banglore", "Hyderabad"}
+cities.add("Gurgaon")
+print(cities)
+
+# Removing Elements from set:
+
+cities.remove("Delhi")
+print(cities)
+
+# Union of Sets:
+
+x = {'a', 'b', 'c'}
+y = {'d', 'e', 'f'}
+
+u = x.union(y)
+print(u)
 
 
-vue = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
-jue = {2, 4, 6, 8, 10}
+# Intersection of Sets:
+
+a = {1, 2, 3, 4}
+b = {3, 4, 5, 6}
+
+v = a.intersection(b)
+print(v)
+
+# Difference of Sets:
+
+a = {1, 2, 3}
+b = {2, 3, 4}
+d = a.difference(b)
+print(d)
