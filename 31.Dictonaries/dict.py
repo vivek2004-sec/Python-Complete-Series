@@ -76,5 +76,6 @@ nested_dict ={
     }
 }
 print((nested_dict))
+print(nested_dict["subjects"]['chem'])
 
 # Iterating Through a Dictionary:
