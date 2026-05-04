@@ -17,3 +17,15 @@ name = 'vivek'
 age = 22
 intro = f"Hello, my name is {name}, my age is {age}."
 print(intro)
+
+import datetime
+
+today = datetime.datetime.today()
+print(f"{today:%B %d, %Y}")
+
+
+marks = 45
+total_marks = 50
+
+info = f"out of 20 students 15 students scored {marks} and 2 students scored {total_marks}"
+print(info)
