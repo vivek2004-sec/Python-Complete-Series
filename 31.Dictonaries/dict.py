@@ -4,7 +4,13 @@ vue = {
     "last-name": "Kamble",
     "city": "kagal",
     "department": "CSE",
-    "year-of-study": "3rd"
+    "year-of-study": "3rd", 
+    "subject": ['maths', 'physics', 'computer networks', 'csi'],
+    "marks": (90, 89, 88),
+    "group": {"amey", "vivek"},
+    "info": {"vivek":"captain", "amey": "vice-captain"}
+    
+    
     
 }
 print(vue)
@@ -50,3 +56,7 @@ print(d)       # {'name': 'Vivek', 'age': 21}
 # It removes and returns the last inserted key-value pair as a tuple
 
 print(d.clear())
+# Removes all items from dictionary.
+
+
+# Iterating Through a Dictionary
