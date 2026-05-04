@@ -15,6 +15,7 @@ vue = {
 }
 
 print(vue.keys())
+print(list(vue.keys()))
 print(vue.values())
 print(vue.items())
 print(vue.get("subject"))
@@ -42,3 +43,6 @@ d = {"name": "vivek", "age": 21}
 
 d2 = d.fromkeys("keys","unknown" )
 print(d2)
+
+# we can get total number of keys.
+print(len(d))
