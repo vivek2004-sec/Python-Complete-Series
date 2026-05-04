@@ -1,20 +1,29 @@
-# dic = {
-#     "vivek": "Human being",
-#     "spoon": "get",
-#     "apple": "fruit",
-#     "car": "vehicle",
-#     "tree": "plant",
-#     "python": "language",
-#     "java": "language"
-# }
+dic = {
+    "vivek": "Human being",
+    "spoon": "get",
+    "apple": "fruit",
+    "car": "vehicle",
+    "tree": "plant",
+    "python": "language",
+    "java": "language"
+}
 
-# print(dic["vivek"])
-# print(dic["java"])
-# print(dic["python"])
-# print(dic["car"])
-# print(dic["tree"])
-# print(dic["apple"])
+print(dic["vivek"])
+print(dic["java"])
+print(dic["python"])
+print(dic["car"])
+print(dic["tree"])
+print(dic["apple"])
 
+std = {
+    "name": "vivek",
+    "department": "CSE",
+    "Year": "3rd",
+    "city": "Kagal",
+    "college": "GCOEK"
+}
+
+print(std["name"])
 # students = {
 #     "John": 90,
 #     "Emma": 85,
@@ -30,7 +39,7 @@
 # print(students["Samuel"])
 # print(students["John"])
 
-info = {"Name": "Vivek", "Age": 20, "Course": "Computer Science", "City": "Kagal"}
+# info = {"Name": "Vivek", "Age": 20, "Course": "Computer Science", "City": "Kagal"}
 # print(info)
 # print(info.get('City'))
 # print(info.get('Age'))
@@ -47,8 +56,8 @@ info = {"Name": "Vivek", "Age": 20, "Course": "Computer Science", "City": "Kagal
 # for values in info.values():
 #     print(values)
 
-print(info.items())
-for key, value in info.items():
+# print(info.items())
+# for key, value in info.items():
     
-    print(f"The value corresponding to the key {key} is {value}")
+#     print(f"The value corresponding to the key {key} is {value}")
     

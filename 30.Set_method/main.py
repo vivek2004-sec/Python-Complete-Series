@@ -26,7 +26,7 @@ b = {3, 4, 5, 6}
 v = a.intersection(b)
 print(v)
 
-# Difference of Sets:
+# Difference of Sets: returns the values which are present in the first set but not in the second set.
 
 a = {1, 2, 3}
 b = {2, 3, 4}
