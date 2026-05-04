@@ -14,6 +14,7 @@ vue = {
     
 }
 print(vue)
+print(type(vue))
 
 # Access of values based on keys:
 print(vue["name"])
@@ -58,5 +59,13 @@ print(d)       # {'name': 'Vivek', 'age': 21}
 print(d.clear())
 # Removes all items from dictionary.
 
+# Empty Dictionary:
+null_dict = {}
+null_dict["name"] = "vivek"
+null_dict["age"] = 22
+print(null_dict)
 
-# Iterating Through a Dictionary
+
+
+
+# Iterating Through a Dictionary:
