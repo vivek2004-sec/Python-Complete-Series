@@ -14,6 +14,8 @@ vue = {
     
 }
 
+
+
 print(vue.keys())
 print(list(vue.keys()))
 print(vue.values())
@@ -46,3 +48,6 @@ print(d2)
 
 # we can get total number of keys.
 print(len(d))
+
+for key, value in vue.items():
+    print(f"{key}:{value}")
