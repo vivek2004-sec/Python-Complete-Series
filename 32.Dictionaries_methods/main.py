@@ -31,9 +31,14 @@ d2["name"] = "Kamble"   # changes only d2
 print(d)   # {'name': 'Vivek', 'age': 21}   ← original unchanged
 print(d2)  # {'name': 'Kamble', 'age': 21}
 
-d = {"name": "", "age": 21}
+d = {"name": "vivek", "age": 21}
 
 print(d.setdefault("name", "Unknown"))   # Vivek   ← key exists
 print(d.setdefault("city", "Kolhapur"))  # Kolhapur ← key added
 
 print(d)  # {'name': 'Vivek', 'age': 21, 'city': 'Kolhapur'}
+
+d = {"name": "vivek", "age": 21}
+
+d2 = d.fromkeys("keys","unknown" )
+print(d2)
