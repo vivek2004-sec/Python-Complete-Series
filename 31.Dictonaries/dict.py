@@ -66,6 +66,15 @@ null_dict["age"] = 22
 print(null_dict)
 
 
-
+# Nested Dictionaries:
+nested_dict ={
+    "name": 'vivek',
+    "subjects": {
+        'chem': 98,
+        "physics": 78,
+        "maths": 90
+    }
+}
+print((nested_dict))
 
 # Iterating Through a Dictionary:
