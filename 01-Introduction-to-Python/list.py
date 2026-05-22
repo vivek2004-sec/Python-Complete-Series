@@ -1,0 +1,7 @@
+print(33)
+print("33")
+print(4*4)
+print(8**4)
+print("Hello World")
+print(8//3)
+print(9%8)
