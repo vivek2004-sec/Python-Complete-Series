@@ -9,3 +9,4 @@
 f = open("requirements.txt", "r")
 text = f.read()
 print(text)
+f.close()
