@@ -43,3 +43,6 @@ for i in folder:
 # print(os.mkdir("44."))
 
 # print(os.getcwd())
+
+# os.mkdir("44.local_vs_global_variables")
+os.rmdir("44.local_vs_global_variables/main.py")
