@@ -16,3 +16,10 @@ f = open("45.file_IO/mylife.txt", "r")
 line = f.readline()
 print(line)
 f.close()
+
+
+# Read all lines as list: 
+f = open("45.file_IO/mylife.txt", "r")
+lines = f.readlines()
+print(lines)
+f.close()
