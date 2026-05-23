@@ -11,14 +11,15 @@
 # print(name)           # prints 
 
 
-# x = 5
+x = 5
 
-# def vue():
-#     x = 7
-#     print(x)
+def vue():
+    global x
+    x = 7
+    print(x)
 
-# vue()
-# print(x)
+vue()
+print(x)
 
 
 # x = 7
@@ -93,3 +94,4 @@ add_score(10)
 add_score(20)
 add_score(30)
 reset_score()
+
