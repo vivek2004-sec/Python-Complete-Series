@@ -35,12 +35,26 @@
 
 # Gobal Keyword:
 
-name = "kamble"
+name = "Vivek"        # global variable
 
-def my_name():
-    global name
-    name = "vivek"
+def my_function():
+    global name       # ← tells Python use GLOBAL variable
+    name = "Kamble"   # modifies the GLOBAL variable
     print(name)
 
-my_name()
-print(name)
+my_function()
+print(name)           # global variable is now changed!
+
+
+
+count = 0
+
+def increment():
+    global count        # ✅ use global count
+    count = count + 1
+    print(count)
+
+increment()
+increment()
+increment()
+print(count)
