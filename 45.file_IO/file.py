@@ -25,6 +25,3 @@
     
 # print("Details saved!")
 
-
-import os
-os.mkdir("46.File_io_methods")
