@@ -23,3 +23,14 @@ f = open("45.file_IO/mylife.txt", "r")
 lines = f.readlines()
 print(lines)
 f.close()
+
+
+# With statement: 
+
+# with open("45.file_IO/mylife.txt", "w") as f:
+#     f.write("Hello this is vivek.")
+#     f.write("Hello this is rishi.")
+
+with open("45.file_IO/mylife.txt", "r") as f:
+    content = f.read()
+    print(content)
