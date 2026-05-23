@@ -1,3 +1,6 @@
-Name -> Vivek
+Name -> sujal 
+Age -> 21
+City -> pimplagaon
+Name -> vivek
 Age -> 22
-City -> Kolhapur
+City -> kagal
