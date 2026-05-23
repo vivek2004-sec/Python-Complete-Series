@@ -97,6 +97,3 @@ reset_score()
 
 
 
-import os
-
-os.mkdir("45.file_IO")
