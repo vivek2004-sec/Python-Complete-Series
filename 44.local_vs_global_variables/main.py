@@ -19,3 +19,15 @@ print(name)           # prints
 
 # vue()
 # print(x)
+
+
+x = 7
+
+def rishi():
+    y = 8
+    print(y)
+
+
+rishi()
+print(x)
+print(y)
