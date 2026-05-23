@@ -4,3 +4,6 @@ City -> pimplagaon
 Name -> vivek
 Age -> 22
 City -> kagal
+Name -> amey
+Age -> 22
+City -> Kolhapur
