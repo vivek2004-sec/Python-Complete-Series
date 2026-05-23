@@ -1,7 +1,10 @@
 import os 
 
 print(os.getcwd())
-print(os.listdir())
+folder = os.listdir()
+
+for i in folder:
+    print(i)
 
 
 
@@ -20,18 +23,23 @@ print(os.listdir())
 
 # os.rename("new_folder", "vivek")
 
-print(os.path.exists("vivek"))
-print(os.path.isfile("vivek"))
-print(os.path.isdir("vivek"))
-print(os.path.getsize(".idea"))
+# print(os.path.exists("vivek"))
+# print(os.path.isfile("vivek"))
+# print(os.path.isdir("vivek"))
+# print(os.path.getsize(".idea"))
 
-print(os.name)
-print(os.sep)
+# print(os.name)
+# print(os.sep)
 
 
 
-stats = os.stat("41.import/import.py")
+# stats = os.stat("41.import/import.py")
 
-print("Size:", stats.st_size, "bytes")
-print("Last modified:", stats.st_mtime)
-print("Permissions:", oct(stats.st_mode)[-3:])
+# print("Size:", stats.st_size, "bytes")
+# print("Last modified:", stats.st_mtime)
+# print("Permissions:", oct(stats.st_mode)[-3:])
+
+
+# print(os.mkdir("44."))
+
+# print(os.getcwd())
