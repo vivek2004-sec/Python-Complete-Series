@@ -40,3 +40,5 @@ lines = ["Line 1\n", "Line 2\n", "Line 3\n"]
 
 with open("45.file_IO/mylife.txt", "w") as f:
     f.writelines(lines)
+    
+
