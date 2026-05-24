@@ -20,5 +20,3 @@ from functools import reduce
 sum = (reduce(lambda v,w : v + w , l))
 print(sum)
 
-import os
-os.mkdir("48.is_vs_==")
