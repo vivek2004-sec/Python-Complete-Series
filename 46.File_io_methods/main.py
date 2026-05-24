@@ -48,6 +48,11 @@ with open("46.File_io_methods/file.txt", "w") as f:
     
 with open("46.File_io_methods\myfile.txt", "r+") as f:
     f.truncate(5)           # keep only first 5 chars
+# truncate(n) → keep first n characters
+#               remove everything after n
+#               file is permanently changed!
+
+# Always use "r+" mode with truncate! ✅
 
 with open("46.File_io_methods\myfile.txt", "r") as f:
     print(f.read())
