@@ -20,3 +20,8 @@ print(is_even(5))       # False
 
 maximum = lambda a, b: a if a > b else b
 print(maximum(10, 20))  # 20
+
+
+greet = lambda: "Hello Vivek!"
+print(greet())          # Hello Vivek!
+
