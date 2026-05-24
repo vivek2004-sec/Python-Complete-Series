@@ -25,3 +25,9 @@ print(maximum(10, 20))  # 20
 greet = lambda: "Hello Vivek!"
 print(greet())          # Hello Vivek!
 
+# map() applies function to each item in list
+
+numbers = [1, 2, 3, 4, 5]
+
+squared = list(map(lambda x: x ** 2, numbers))
+print(squared)          # [1, 4, 9, 16, 25]
