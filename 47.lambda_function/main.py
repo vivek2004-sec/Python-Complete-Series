@@ -31,3 +31,11 @@ numbers = [1, 2, 3, 4, 5]
 
 squared = list(map(lambda x: x ** 2, numbers))
 print(squared)          # [1, 4, 9, 16, 25]
+
+
+# filter() filters items based on condition
+
+numbers = [1, 2, 3, 4, 5, 6, 7, 8]
+
+evens = list(filter(lambda x: x % 2 == 0, numbers))
+print(evens)            # [2, 4, 6, 8]
