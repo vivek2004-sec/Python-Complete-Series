@@ -31,16 +31,16 @@
 # Seek() function:
 # seek()  → moves you to a SPECIFIC position in the file.
 
-# with open("46.File_io_methods/file.txt", "r") as f: 
-#     print(type(f))
+with open("46.File_io_methods/file.txt", "r") as f: 
+    print(type(f))
     
-#     f.seek(10)
+    f.seek(10)
     
-#     data = f.read(5)
-#     print(data)
+    data = f.read(12)
+    print(data)
     
-with open("46.File_io_methods/myfile.txt", "r") as f:
-    f.seek(0)     # move to beginning
-    f.seek(5)     # move to position 5
-    f.seek(10)    # move to position 10
+with open("46.File_io_methods/file.txt", "w") as f:
+    f.seek(13)
+
+    f.write("Hello this is vivek.")
     
