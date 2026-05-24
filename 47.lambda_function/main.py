@@ -48,3 +48,11 @@ students = [("Vivek", 21), ("John", 19), ("Sara", 22)]
 sorted_students = sorted(students, key=lambda x: x[1])
 print(sorted_students)
 # [('John', 19), ('Vivek', 21), ('Sara', 22)]
+
+
+from functools import reduce
+
+numbers = [1, 2, 3, 4, 5]
+
+total = reduce(lambda a, b: a + b, numbers)
+print(total)            # 15  (1+2+3+4+5)
