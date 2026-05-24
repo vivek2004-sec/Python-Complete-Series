@@ -55,4 +55,5 @@ with open("46.File_io_methods\myfile.txt", "r+") as f:
 # Always use "r+" mode with truncate! ✅
 
 with open("46.File_io_methods\myfile.txt", "r") as f:
-    print(f.read())
+    f.read(3)
+    
