@@ -43,4 +43,5 @@ with open("46.File_io_methods/file.txt", "w") as f:
     f.seek(13)
 
     f.write("Hello this is vivek.")
+    print(f.tell())
     
