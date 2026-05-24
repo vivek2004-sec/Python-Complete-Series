@@ -49,6 +49,10 @@ print(evens)            # [2, 4, 6, 8]
 small = list(filter(lambda s: s % 3 ==0, numbers))
 print(small)
 
+filter_function = list(filter(lambda a: a > 4, numbers))
+print("This is the value: ", filter_function)
+
+
 # sort list of tuples by second element
 
 students = [("Vivek", 21), ("John", 19), ("Sara", 22)]
@@ -56,6 +60,7 @@ students = [("Vivek", 21), ("John", 19), ("Sara", 22)]
 sorted_students = sorted(students, key=lambda x: x[1])
 print(sorted_students)
 # [('John', 19), ('Vivek', 21), ('Sara', 22)]
+
 
 
 from functools import reduce
