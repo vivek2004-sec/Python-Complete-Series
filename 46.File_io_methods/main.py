@@ -45,3 +45,9 @@ with open("46.File_io_methods/file.txt", "w") as f:
     f.write("Hello this is vivek.")
     print(f.tell())
     
+    
+with open("46.File_io_methods\myfile.txt", "r+") as f:
+    f.truncate(5)           # keep only first 5 chars
+
+with open("46.File_io_methods\myfile.txt", "r") as f:
+    print(f.read())
