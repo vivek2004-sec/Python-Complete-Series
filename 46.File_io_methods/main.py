@@ -35,3 +35,11 @@ with open("46.File_io_methods/file.txt", "r") as f:
     print(type(f))
     
     f.seek(10)
+    
+    data = f.read(5)
+    print(data)
+    
+with open("46.File_io_methods/file.txt", "r") as f:
+    f.seek(0)     # move to beginning
+    f.seek(5)     # move to position 5
+    f.seek(10)    # move to position 10
