@@ -28,7 +28,10 @@
 #     f.writelines(lines)
     
     
-# Seek() function: 
+# Seek() function:
+# seek()  → moves you to a SPECIFIC position in the file.
 
-with open("46.File_io_methods/file.txt", "w") as f: 
+with open("46.File_io_methods/file.txt", "r") as f: 
     print(type(f))
+    
+    f.seek(10)
