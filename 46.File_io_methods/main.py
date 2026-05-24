@@ -23,7 +23,12 @@
 #         print(line.strip())
 
 
-with open("46.File_io_methods/myfile2.txt", "w") as f:
-    lines = ["Hello!\n", 'My name is vivek\n', "It's so nice to meet you."]
-    f.writelines(lines)
+# with open("46.File_io_methods/myfile2.txt", "w") as f:
+#     lines = ["Hello!\n", 'My name is vivek\n', "It's so nice to meet you."]
+#     f.writelines(lines)
     
+    
+# Seek() function: 
+
+with open("46.File_io_methods/file.txt", "w") as f: 
+    print(type(f))
