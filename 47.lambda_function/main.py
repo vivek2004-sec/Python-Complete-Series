@@ -41,11 +41,13 @@ print(vue)
 
 # filter() filters items based on condition
 
-numbers = [1, 2, 3, 4, 5, 6, 7, 8]
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 12]
 
 evens = list(filter(lambda x: x % 2 == 0, numbers))
 print(evens)            # [2, 4, 6, 8]
 
+small = list(filter(lambda s: s % 3 ==0, numbers))
+print(small)
 
 # sort list of tuples by second element
 
