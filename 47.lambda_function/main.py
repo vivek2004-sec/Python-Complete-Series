@@ -33,6 +33,12 @@ squared = list(map(lambda x: x ** 2, numbers))
 print(squared)          # [1, 4, 9, 16, 25]
 
 
+arr = [1,2,3,4]
+
+vue = list(map(lambda x: x*4, arr))
+print(vue)
+
+
 # filter() filters items based on condition
 
 numbers = [1, 2, 3, 4, 5, 6, 7, 8]
