@@ -39,3 +39,13 @@ Behaviors → Functions (methods)
 
 Class → Blueprint
 Object → Real thing made from blueprint
+
+**init**() method:
+
+**init** → called automatically when
+object is created
+like a constructor!
+
+self → refers to the current object
+always first parameter
+in every method!
