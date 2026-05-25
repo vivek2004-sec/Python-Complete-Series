@@ -53,3 +53,9 @@ in every method!
 2. Encapsulation
    Hiding data from outside world!
    Using private variables!
+
+3. Inheritance
+   Child class INHERITS properties
+   and methods from Parent class!
+
+Reuse code without rewriting!
