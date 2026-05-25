@@ -34,3 +34,7 @@ Behaviors → Functions (methods)
 2. Inheritance → reusing code
 3. Polymorphism → many forms
 4. Abstraction → hiding complexity
+
+5. Class and Object
+   Class → Blueprint
+   Object → Real thing made from blueprint
