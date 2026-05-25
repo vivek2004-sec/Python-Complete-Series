@@ -64,3 +64,16 @@ Reuse code without rewriting!
    Same method name
    DIFFERENT behavior
    in different classes!
+
+Simple Rule
+
+Class → Blueprint (like a house plan)
+Object → Real thing (like actual house)
+
+**init** → runs when object is created
+self → refers to current object
+
+Encapsulation → hide data (\_\_)
+Inheritance → reuse code (Child(Parent))
+Polymorphism → same name different behavior
+Abstraction → hide complexity show simplicity
