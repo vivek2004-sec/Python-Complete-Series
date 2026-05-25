@@ -49,3 +49,7 @@ like a constructor!
 self → refers to the current object
 always first parameter
 in every method!
+
+2. Encapsulation
+   Hiding data from outside world!
+   Using private variables!
