@@ -27,3 +27,10 @@ Behaviors (what it DOES):
 In OOP:
 Properties → Variables (attributes)
 Behaviors → Functions (methods)
+
+4 Pillars of OOPS:
+
+1. Encapsulation → hiding data
+2. Inheritance → reusing code
+3. Polymorphism → many forms
+4. Abstraction → hiding complexity
