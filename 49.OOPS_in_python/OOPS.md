@@ -59,3 +59,8 @@ in every method!
    and methods from Parent class!
 
 Reuse code without rewriting!
+
+4. Polymorphism
+   Same method name
+   DIFFERENT behavior
+   in different classes!
