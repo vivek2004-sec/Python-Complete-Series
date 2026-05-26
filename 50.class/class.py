@@ -12,4 +12,6 @@ print(a.name)
 print(a.age)
 print(a.city)
 a.name = "shubham"
+a.city = "kolhapur"
 print(a.name)
+print(a.city)
