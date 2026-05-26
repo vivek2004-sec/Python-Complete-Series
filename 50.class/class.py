@@ -9,4 +9,6 @@ class person:
 
 a = person()
 print(a.name)
+print(a.age)
+print(a.city)
 print(a)
