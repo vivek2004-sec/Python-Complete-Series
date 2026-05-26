@@ -6,6 +6,7 @@ class person:
     branch  = "cse"
 
 
-print(person())
+
 a = person()
 print(a.name)
+print(a)
