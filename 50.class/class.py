@@ -1,8 +1,11 @@
-Class
+class person:
+    name = "vivek"
+    age = 22
+    occupation = "student"
+    city = "kagal"
+    branch  = "cse"
 
-A class is a collection of objects. Classes are blueprints for creating objects. 
-A class defines a set of attributes and methods that the created objects (instances) can have.
 
-Classes are created by keyword class.
-Attributes are the variables that belong to a class.
-Attributes are always public and can be accessed using the dot (.) operator.
+print(person())
+a = person()
+print(a.name)
