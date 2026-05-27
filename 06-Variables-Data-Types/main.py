@@ -60,6 +60,7 @@ e=9.7
 f= 3 + 4j
 g = range(5)
 h = [1,2]
+i = (1,2)
 print("the type of a is ",type(a))
 print("the type of b is ",type(b))
 print("the type of c is ",type(c))
@@ -68,6 +69,7 @@ print("the type of e is ",type(e))
 print("the type of f is ",type(f))
 print("the type of g is ",type(g))
 print("the type of h is ",type(h))
+print("the type of i is ",type(i))
 
 
    
