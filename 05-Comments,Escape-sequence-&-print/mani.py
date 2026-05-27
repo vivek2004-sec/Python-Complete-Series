@@ -36,6 +36,9 @@ print(12, 11, 2, sep="/", end="004\n")
 
 print("hello my name is vivek.\nI am from kolhapur.")
 
+
+# sep= and end= are keyword arguments used in the built in function print()
+
 print(8788, 1236, 18, sep="/")
 
 
