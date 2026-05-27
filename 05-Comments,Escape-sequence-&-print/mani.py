@@ -43,4 +43,9 @@ print(8788, 1236, 18, sep="/")
 print("apple", "watermelon", "banana", "kiwi", sep="/")
 
 
-print("87881236", end="18")
+print("87881236", end="18\n")
+print(12, 11,  end=" ", sep="/")
+print(2004)
+
+print("hello", end=" ")
+print("world")
