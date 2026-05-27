@@ -40,6 +40,7 @@ print("hello my name is vivek.\nI am from kolhapur.")
 # sep= and end= are keyword arguments used in the built in function print()
 
 print(8788, 1236, 18, sep="/")
+print("apple", "watermelon", "banana", "kiwi", sep="/")
 
 
 print("87881236", end="18")
