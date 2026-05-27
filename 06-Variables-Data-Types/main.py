@@ -52,7 +52,7 @@ Data Types : 6 major and commonly known.
 7.Binary = bytes, bytearray, memoryview
 '''
 
-a=1
+a= 1
 b=True
 c="Vivek"
 d=None
@@ -64,3 +64,5 @@ print("the type of c is ",type(c))
 print("the type of d is ",type(d))
 print("the type of e is ",type(e))
 print("the type of f is ",type(f))
+
+   
