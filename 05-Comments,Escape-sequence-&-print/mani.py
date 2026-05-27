@@ -37,3 +37,6 @@ print(12, 11, 2, sep="/", end="004\n")
 print("hello my name is vivek.\nI am from kolhapur.")
 
 print(8788, 1236, 18, sep="/")
+
+
+print("87881236", end="18")
