@@ -38,8 +38,8 @@ print(date)
 '''
 # Data Types
 
--> Data type specifies the type of value holds. this is required in programming to do operation
-without causing an error. In python, we can print the type of any operator using type function.
+-> Data type specifies the type of value variable holds. this is required in programming to do operation
+without causing an error. In python, we can print the type of any operator using type() function.
 
 Data Types :
 
