@@ -31,4 +31,9 @@ print("Probability is an measure of how likely an event is to occur.\nIt quantif
 
 print("Conditional Probability:\nwhen an event is already occured and asked in respect to other event.")
 
-print(12, 11, 2, sep="/", end="004")
+print(12, 11, 2, sep="/", end="004\n")
+
+
+print("hello my name is vivek.\nI am from kolhapur.")
+
+print(8788, 1236, 18, sep="/")
