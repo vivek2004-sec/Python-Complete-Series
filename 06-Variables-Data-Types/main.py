@@ -62,6 +62,7 @@ g = range(5)
 h = [1,2]
 i = (1,2)
 ab = {"vivek": 1, 'kamble':2}
+v = {"apple", "kiwi", "banana"}
 
 print("the type of a is ",type(a))
 print("the type of b is ",type(b))
@@ -73,6 +74,7 @@ print("the type of g is ",type(g))
 print("the type of h is ",type(h))
 print("the type of i is ",type(i))
 print("the type of ab is ",type(ab))
+print("the type of v is ",type(v))
 
 
    
