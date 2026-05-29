@@ -67,7 +67,7 @@ print(a & b)
 # 2. BITWISE OR (|): 
 print(a | b)
 
-
+# 3.Bitwise NOT (~):
 print(~a)
 print(a ^ b)
 print(a >> 2)
