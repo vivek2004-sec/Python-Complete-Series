@@ -79,6 +79,7 @@ print(~a)
 print(a ^ b)
 
 # 5. Bitwise Left Shift (<<): << = left shift symbol
+# a << 2 = multiply by 2 i.e if a = 10 then 10 * 2 = 20, 20*2 = 40
 print(a << 2)
 
 # 6.Bitwise Right shift (>>): >> = Right shift  symbol.
