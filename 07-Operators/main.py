@@ -51,6 +51,8 @@ print(a or b)
 print(not a )
 # a = 10 which is True so it flips the value to False.
 # if a = True then print(not a) == print(not 10) == False.
+# if value is non-zero it returns False.
+# if the value is zero it returns True.
 print(not b)
 
 
@@ -59,8 +61,13 @@ print(not b)
 a = 10
 b = 4
 
+# 1. Bitwise AND (&):
 print(a & b)
+
+# 2. BITWISE OR (|): 
 print(a | b)
+
+
 print(~a)
 print(a ^ b)
 print(a >> 2)
