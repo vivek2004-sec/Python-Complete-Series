@@ -83,6 +83,7 @@ print(a ^ b)
 print(a << 2)
 
 # 6.Bitwise Right shift (>>): >> = Right shift  symbol.
+# Division by 2
 print(a >> 2)
 
 
