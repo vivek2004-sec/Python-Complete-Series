@@ -56,7 +56,7 @@ print(not a )
 print(not b)
 
 
-# Bitwise Operator:
+# Bitwise Operator: this are used in python to perform operations on the individual bits of  binary numbers.
 
 a = 10
 b = 4
