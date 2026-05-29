@@ -66,7 +66,7 @@ b = 4
 print(a & b)
 
 # 2. BITWISE OR (|): | = pipe/ vertical bar
-
+# Rule: atleast one must be 1.
 print(a | b)
 
 # 3.Bitwise NOT (~): ~ = Tilde
