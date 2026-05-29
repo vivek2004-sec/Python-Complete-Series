@@ -70,6 +70,8 @@ print(a & b)
 print(a | b)
 
 # 3.Bitwise NOT (~): ~ = Tilde
+# ~a = -(a + 1)
+# eg. ~ 12 = -13
 print(~a)
 
 # 4. Bitwise XOR  (^): ^ = caret
