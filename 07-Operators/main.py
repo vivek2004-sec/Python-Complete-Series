@@ -67,7 +67,7 @@ print(a & b)
 # 2. BITWISE OR (|): | = pipe/ vertical bar
 print(a | b)
 
-# 3.Bitwise NOT (~):
+# 3.Bitwise NOT (~): ~ = Tilde
 print(~a)
 
 # 4. Bitwise XOR  (^):
