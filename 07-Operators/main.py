@@ -76,7 +76,7 @@ print(a ^ b)
 # 5. Bitwise Left Shift (<<): << = left shift symbol
 print(a << 2)
 
-# 6.Bitwise Right shift (>>):
+# 6.Bitwise Right shift (>>): >> = Right shift  symbol.
 print(a >> 2)
 
 
