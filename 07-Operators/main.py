@@ -73,6 +73,7 @@ print(a | b)
 print(~a)
 
 # 4. Bitwise XOR  (^): ^ = caret
+# Rule: same value 0, different value 1.
 print(a ^ b)
 
 # 5. Bitwise Left Shift (<<): << = left shift symbol
