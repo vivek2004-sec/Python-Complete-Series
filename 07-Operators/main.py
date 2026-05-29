@@ -64,7 +64,7 @@ b = 4
 # 1. Bitwise AND (&): & = ampersand 
 print(a & b)
 
-# 2. BITWISE OR (|): 
+# 2. BITWISE OR (|): | = pipe/ vertical bar
 print(a | b)
 
 # 3.Bitwise NOT (~):
