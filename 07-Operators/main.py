@@ -69,6 +69,8 @@ print(a | b)
 
 # 3.Bitwise NOT (~):
 print(~a)
+
+# 4. Bitwise XOR  (^):
 print(a ^ b)
 print(a >> 2)
 print(a << 2)
