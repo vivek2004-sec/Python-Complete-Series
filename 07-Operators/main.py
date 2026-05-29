@@ -61,7 +61,7 @@ print(not b)
 a = 10
 b = 4
 
-# 1. Bitwise AND (&):
+# 1. Bitwise AND (&): & = ampersand 
 print(a & b)
 
 # 2. BITWISE OR (|): 
