@@ -72,8 +72,12 @@ print(~a)
 
 # 4. Bitwise XOR  (^):
 print(a ^ b)
-print(a >> 2)
+
+# 5. Bitwise Left Shift (<<):
 print(a << 2)
+
+
+print(a >> 2)
 
 
 # Assignment Operator:
