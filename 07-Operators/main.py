@@ -62,9 +62,11 @@ a = 10
 b = 4
 
 # 1. Bitwise AND (&): & = ampersand 
+# Rule: both must be 1.
 print(a & b)
 
 # 2. BITWISE OR (|): | = pipe/ vertical bar
+
 print(a | b)
 
 # 3.Bitwise NOT (~): ~ = Tilde
