@@ -21,3 +21,14 @@ m = [1,2]
 n = m
 print(m is n)
 print(m is not n)
+
+
+x = 11
+y = 20
+ls = [7, 8, 9, 10, 11, 12, 14]
+
+print(x in ls)
+print(x not in ls)
+
+print(y in ls)
+print(y not in ls)
