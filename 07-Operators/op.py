@@ -12,3 +12,7 @@ print(a is b)
 Here a == b says that a and b both contains same values.
 and a is b says both are different lists located in memory.
 '''
+a = [1,2,3]
+b = a
+print(a is b)
+print(a == b)
