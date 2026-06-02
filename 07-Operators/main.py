@@ -137,6 +137,12 @@ print(a is b)
 Here, a = 10 and b = a so, b = 10 aswell
 a is b says that same values located at same memory locations'''
 
+a = 1000
+b = 1000
+print(a == b)   # True  → same value
+print(a is b)   # False → different objects (no caching above 256)
+
+
 
 a = [1,2,3]
 b = [1,2,3]
