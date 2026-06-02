@@ -71,3 +71,7 @@ If an expression contains two or more operators with the same precedence then Op
 \*\* # power
 = += -= # assignment
 not # logical NOT
+
+# Note:
+
+1. IS checks if the variables point to the same object in memory(identity), not just same values.
