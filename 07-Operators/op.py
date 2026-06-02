@@ -16,3 +16,8 @@ a = [1,2,3]
 b = [1,2,3]
 print(a is b)
 print(a is not b)
+
+m = [1,2]
+n = m
+print(m is n)
+print(m is not n)
