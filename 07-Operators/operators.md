@@ -75,3 +75,5 @@ not # logical NOT
 # Note:
 
 1. IS checks if the variables point to the same object in memory(identity), not just same values.
+2. is not checks if two variables are not belonging to the same object and returns TRUE.
+   meaning if two variables do not point to the same object in memory it returns TRUE.
