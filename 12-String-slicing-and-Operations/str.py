@@ -1,4 +1,7 @@
 name="Vivek,Harry,Chetan,Atharv,Sanket"
+v = "Chetan"
+print(v in name)
+print(len(name))
 print(name[0:18])
 print(name[0:5])
 print(name[0:11])
