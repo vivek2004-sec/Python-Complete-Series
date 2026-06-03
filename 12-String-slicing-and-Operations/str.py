@@ -12,16 +12,16 @@
 
 
 
-# fruit= "Mango"
-# len1= len(fruit)
-# print("Mango is a",len1,"letter word.")
-# print(fruit[0:4])
-# print(fruit[1:4])
-# print(fruit[:4])
-# print(fruit[:])
-# print(fruit[0:len(fruit)-3])
-# print(fruit[-3:-1])
-# print(fruit[-4:-2])
+fruit= "Mango"
+len1= len(fruit)
+print("Mango is a",len1,"letter word.")
+print(fruit[0:4])
+print(fruit[1:4])
+print(fruit[:4])
+print(fruit[:])
+print(fruit[0:len(fruit)-3])
+print(fruit[-3:-1])
+print(fruit[-4:-2])
 
 # city= "Mumbai"
 # len1=len(city)
