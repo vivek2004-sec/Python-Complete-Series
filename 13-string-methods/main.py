@@ -41,5 +41,5 @@ print(new_name) # rishi kamble
 " ".join(["hello", "world"])  # "hello world"
 ",".join(["a", "b", "c"])     # "a,b,c"
 
-name = "vivek kamble"
-print(name.split())
+name = "vivek, kamble"
+print(name.split(","))
