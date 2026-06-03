@@ -8,5 +8,4 @@ s.capitalize()   # "Hello world"
 s.title()        # "Hello World"
 s.swapcase()     # "HELLO WORLD" → swaps upper/lower
 
-name = "vivek"
-print(name.swapcase())
+
