@@ -19,6 +19,3 @@ s.count("l")         # 3
 s.startswith("hello") # True
 s.endswith("world")   # True
 "world" in s          # True
-
-name = 'vivek'
-print(name.find("kamble"))
