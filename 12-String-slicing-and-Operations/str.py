@@ -7,6 +7,8 @@ print(len(name))
 # print(name[0:11])
 # print(name[6:11])
 print(name[0:5])
+print(name[0:-5])
+print(name[0:28])
 
 
 
