@@ -20,6 +20,3 @@ s.startswith("hello") # True
 s.endswith("world")   # True
 "world" in s          # True
 
-name = 'vivek kamble'
-print(name.find('kamble'))
-print(name[6:12])
