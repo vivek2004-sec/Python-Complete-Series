@@ -43,3 +43,7 @@ print(new_name) # rishi kamble
 
 name = "vivek, kamble"
 print(name.split(","))
+
+a = ['vivek', ' kamble']
+" ".join(a)
+print(a)
