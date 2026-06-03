@@ -29,3 +29,8 @@ s.lstrip()       # "hello  "  → removes left
 s.rstrip()       # "  hello"  → removes right
 
 "hello world".replace("world", "python")  # "hello python"
+
+
+name = "vivek kamble"
+new_name = name.replace("vivek", "rishi")
+print(new_name)
