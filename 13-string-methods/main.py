@@ -32,3 +32,11 @@ s.rstrip()       # "  hello"  → removes right
 name = "vivek kamble"
 new_name = name.replace("vivek", "rishi")
 print(new_name) # rishi kamble
+
+# Split & Join: 
+
+"hello world".split()         # ["hello", "world"]
+"a,b,c".split(",")            # ["a", "b", "c"]
+
+" ".join(["hello", "world"])  # "hello world"
+",".join(["a", "b", "c"])     # "a,b,c"
