@@ -2,10 +2,11 @@ name="Vivek,Harry,Chetan,Atharv,Sanket"
 v = "Chetan"
 print(v in name)  # Membership Operator
 print(len(name))
-print(name[0:18])
-print(name[0:5])
-print(name[0:11])
-print(name[6:11])
+# print(name[0:18])
+# print(name[0:5])
+# print(name[0:11])
+# print(name[6:11])
+print(name[5])
 
 print(len(name))
 
