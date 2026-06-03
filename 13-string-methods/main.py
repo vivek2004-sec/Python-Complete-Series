@@ -44,6 +44,8 @@ print(new_name) # rishi kamble
 name = "vivek, kamble"
 print(name.split(","))
 
-a = ['vivek', ' kamble']
-" ".join(a)
-print(a)
+"hello".isalpha()    # True  → only letters
+"123".isdigit()      # True  → only digits
+"hello123".isalnum() # True  → letters and digits
+"   ".isspace()      # True  → only whitespace
+"Hello".istitle()    # True  → title case
