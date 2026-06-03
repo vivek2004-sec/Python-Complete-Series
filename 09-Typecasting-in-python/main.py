@@ -64,3 +64,10 @@ u= 7
 print(int(t) + u)
 
 
+# Implicit vs Explicit 
+
+# Implicit → Python does it automatically
+x = 10 + 3.5     # int + float → float (13.5)
+
+# Explicit → you do it manually
+x = int("10") + int("20")   # 30
