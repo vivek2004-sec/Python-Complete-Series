@@ -19,3 +19,13 @@ s.count("l")         # 3
 s.startswith("hello") # True
 s.endswith("world")   # True
 "world" in s          # True
+
+# Strip & Replace:
+
+s = "  hello  "
+
+s.strip()        # "hello"    → removes both sides
+s.lstrip()       # "hello  "  → removes left
+s.rstrip()       # "  hello"  → removes right
+
+"hello world".replace("world", "python")  # "hello python"
