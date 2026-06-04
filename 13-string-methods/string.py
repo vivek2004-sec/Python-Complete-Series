@@ -47,5 +47,5 @@ print(str1.islower())
 str1 = "HELLO WORLD"
 print(str1.isupper())
 
-str1 = "We wish you a merry christmas."
-print(str1.isprintable())
+# str1 = "We wish you a merry christmas."
+# print(name.split())
