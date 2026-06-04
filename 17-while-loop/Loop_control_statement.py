@@ -25,12 +25,12 @@ for i in range(1, 6):
     print(i)
     
     
-# lt = (1, 2, 3, 4, 5, 6, 7, 8)
-# for num in lt:
-#     if num == 7:
-#         break
+lt = (1, 2, 3, 4, 5, 6, 7, 8)
+for num in lt:
+    if num == 7:
+        break
        
-#     print(num)
+    print(num)
     
 # lt = (1, 2, 3, 4, 5, 6, 7, 8, 9)
 # for num in lt:
