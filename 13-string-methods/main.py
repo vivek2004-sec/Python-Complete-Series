@@ -42,8 +42,13 @@ print(new_name) # rishi kamble
 " ".join(["hello", "world"])  # "hello world"
 ",".join(["a", "b", "c"])     # "a,b,c"
 
-name = ["vivek", "kamble"]
+name = "vivek, kamble"
 print(name.split(","))
+
+name_1  = ["vivek", "kamble"]
+new_name = " ".join(name_1)
+final_name = new_name.title()
+print(final_name)
 
 
 # Check Type Content:
