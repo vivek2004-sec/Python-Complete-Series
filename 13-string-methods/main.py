@@ -4,7 +4,7 @@ s = "hello world"
 
 s.upper()        # "HELLO WORLD"
 s.lower()        # "hello world"
-print(s.capitalize())   # "Hello world"
+s.capitalize()   # "Hello world"
 s.title()        # "Hello World"
 s.swapcase()     # "HELLO WORLD" → swaps upper/lower
 
@@ -19,6 +19,7 @@ s.count("l")         # 3
 s.startswith("hello") # True
 s.endswith("world")   # True
 "world" in s          # True
+"world" not in s      # False
 
 # Strip & Replace:
 
