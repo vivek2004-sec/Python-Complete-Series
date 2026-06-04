@@ -23,4 +23,7 @@ match x:
         
     case _ if x >= 60:
         print(x, " x is greater than 60.")
+    case 5:
+        print("x is complete.")
+        
         
