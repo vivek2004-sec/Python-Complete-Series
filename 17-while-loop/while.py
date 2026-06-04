@@ -1,4 +1,5 @@
-#  While Loop : As the names suggests, while loop executes statement while the condition is true.As soon as the condition becomes false, the interpreter comes out of
+#  While Loop : As the names suggests, while loop executes statement while the condition is true.
+# As soon as the condition becomes false, the interpreter comes out of
 # while loop.
 
 
