@@ -104,3 +104,8 @@ fruits = ['mango', 'kiwi', 'orange', 'banana', 'grapes']
 
 for index, value in enumerate(fruits):
    print(index, value)
+   
+   
+cities = ["kagal", "kolhapur", "sangali", "mumbai"]
+for index, value in enumerate(cities):
+   print(index,"=", value)
