@@ -1,12 +1,12 @@
 # Break statement: It enables a program to skip over a part of the code.A break statement terminates the very loop it lies within.
 # exits loop.
 
-# for i in range(9):
-#     print("5 X", i+1, "=", 5 * (i+1))
-#     if (i == 5):
-#      break
+for i in range(10):
+    print("5 X", i+1, "=", 5 * (i+1))
+    if (i == 9):
+     break
  
-# print("Done with the loop.")
+print("Done with the loop.")
     
 # for i in range(9):
 #     if (i == 5):
