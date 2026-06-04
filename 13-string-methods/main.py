@@ -51,3 +51,5 @@ print(name.split(","))
 "hello123".isalnum() # True  → letters and digits
 "   ".isspace()      # True  → only whitespace
 "Hello".istitle()    # True  → title case
+"HELLO".isupper()    # True  → Upper case
+"HELLO".islower()    # True  → Lower case
