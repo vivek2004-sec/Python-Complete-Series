@@ -1,4 +1,5 @@
-# Loop control statements are used to change the normal flow of loops (like for and while). In Python, there are mainly 3 loop control statements:
+# Loop control statements are used to change the normal flow of loops (like for and while). 
+# In Python, there are mainly 3 loop control statements:
 
 # 🔹 1. break
 
