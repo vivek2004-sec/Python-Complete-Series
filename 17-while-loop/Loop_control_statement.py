@@ -11,40 +11,40 @@ for i in range(1, 6):
    
 # 🔹 2. continue
 
-for i in range(1,6):
-    if i == 3:
-        continue
-    print(i)
+# for i in range(1,6):
+#     if i == 3:
+#         continue
+#     print(i)
     
     
 # 🔹 3. pass
 
-for i in range(1, 6):
-    if i == 3:
-        pass
-    print(i)
+# for i in range(1, 6):
+#     if i == 3:
+#         pass
+#     print(i)
     
     
-lt = (1, 2, 3, 4, 5, 6, 7, 8)
-for num in lt:
-    if num == 7:
-        break
+# lt = (1, 2, 3, 4, 5, 6, 7, 8)
+# for num in lt:
+#     if num == 7:
+#         break
        
-    print(num)
+#     print(num)
     
-lt = (1, 2, 3, 4, 5, 6, 7, 8, 9)
-for num in lt:
-    if  num == 7:
-        continue
+# lt = (1, 2, 3, 4, 5, 6, 7, 8, 9)
+# for num in lt:
+#     if  num == 7:
+#         continue
        
-    print(num)
+#     print(num)
     
-lt = (1, 2, 3, 4, 5, 6, 7, 8)
-for num in lt:
-    if  num == 7:
-        pass
+# lt = (1, 2, 3, 4, 5, 6, 7, 8)
+# for num in lt:
+#     if  num == 7:
+#         pass
        
-    print(num)
+#     print(num)
     
 
 
