@@ -7,8 +7,13 @@ v = len(std)
 print(v)
 nm = int(input("Enter the num: "))
 while (nm == v):
-    for i in std:
-        print(i)
+    for value, index in enumerate(std):
+        print(value,"=", index)
+        
         
     break
+    
+
+
+
 
