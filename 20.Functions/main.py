@@ -73,3 +73,5 @@ l = int(input("Enter the length: "))
 b = int(input("Enter the breadth: "))
 
 area_of_rectangle(l, b)
+area_of_rectangle(6, 6)
+area_of_rectangle(8, 9)
