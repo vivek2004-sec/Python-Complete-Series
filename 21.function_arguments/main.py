@@ -104,7 +104,8 @@ print(x)
 
 # Pass by Reference and Pass by Value
 '''
-Variables are references to objects. When we pass them to a function, behavior depends on whether the object is mutable (like lists, dictionaries) or immutable (like integers, strings, tuples).
+Variables are references to objects. When we pass them to a function, behavior depends on whether 
+the object is mutable (like lists, dictionaries) or immutable (like integers, strings, tuples).
 
 Mutable objects: Changes inside the function affect the original object.
 Immutable objects: The original value remains unchanged.'''
