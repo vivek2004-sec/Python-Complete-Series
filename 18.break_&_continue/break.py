@@ -25,10 +25,9 @@ for i in range(10):
 print("Done with the loop.")
 
 
-a = 0
 
-while a in range(1, 11):
-    for i in range(10):
-      if (a == 2):
+number = int(input('Enter the number: '))
+for a in range(10):
+    if (a == 2):
         continue
-      print("4 X",a, "=",4*(i+1) )
+    print(f"{number}", 'X', a+1, '=', f"{number*(a+1)}")
