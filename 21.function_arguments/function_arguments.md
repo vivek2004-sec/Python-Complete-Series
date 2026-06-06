@@ -1,4 +1,7 @@
-# function_arguments
+# function_arguments:
+
+function arguments are the values that are put into the paranthesis of the defined functions.
+A function can have any number arguments separated by comma.
 
 as we know function is used to break down the code into the small parts. and make it more easier.
 
