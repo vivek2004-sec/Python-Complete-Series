@@ -56,6 +56,8 @@ def mean(*numbers):
 mean(1,2,3,4,5,6,7)
 
 
+
+
 # Keyword_variable length argument:
 def name(**name):
     print(type(name))
