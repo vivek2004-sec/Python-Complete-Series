@@ -1,6 +1,4 @@
-# Functions: A function is a block of code that performs a specific tasks whenerver it is called.In bigger programs, where we have large amount of codes, it is
-
-available to create or use existing functions that make the program from organized and neat.
+-> Functions: A function is a block of code that performs a specific tasks whenerver it is called. In bigger programs, where we have large amount of codes, it is available to create or use existing functions that make the program from organized and neat.
 easier to organize them into functions. Functions are also known as methods or procedures.
 
 # There are two types of function:
