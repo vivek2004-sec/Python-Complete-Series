@@ -1,4 +1,4 @@
-# Break statement: It enables a program to skip over a part of the code.A break statement terminates the very loop it lies within.
+ # Break statement: It enables a program to skip over a part of the code.A break statement terminates the very loop it lies within.
 # exits loop.
 
 for i in range(10):
@@ -23,3 +23,13 @@ for i in range(10):
      continue
     print("5 X", i, "=", 5 * (i))
 print("Done with the loop.")
+
+
+i = 0
+
+for i in range(10):
+    i +=1
+    if (i == 2):
+      continue
+   
+    print("4 X",i+1, "=",4*(i+1) )
