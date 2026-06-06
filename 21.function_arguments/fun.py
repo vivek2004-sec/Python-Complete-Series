@@ -5,3 +5,10 @@ def std_info(**info):
     
 
 std_info(name="vivek", age='22', branch='cse')
+
+def myFun(x):
+    x[0] = 20
+
+lst = [10, 11, 12, 13]
+myFun(lst)
+print(lst)   
