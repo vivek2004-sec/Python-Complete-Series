@@ -25,11 +25,10 @@ for i in range(10):
 print("Done with the loop.")
 
 
-i = 0
+a = 0
 
-for i in range(10):
-    i +=1
-    if (i == 2):
-      continue
-   
-    print("4 X",i+1, "=",4*(i+1) )
+while a in range(1, 11):
+    for i in range(10):
+      if (a == 2):
+        continue
+      print("4 X",a, "=",4*(i+1) )
