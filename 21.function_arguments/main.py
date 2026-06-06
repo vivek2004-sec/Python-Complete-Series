@@ -124,7 +124,7 @@ def myFun2(x):
 
 a = 10
 myFun2(a)
-print(a)
+print("a= " ,a)
 
 
 def my(lst):
