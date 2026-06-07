@@ -22,7 +22,7 @@ print(a)
 #  Creating List with Repeated Elements
 
 a = [2] * 5
-b = [3] * 8
+b = [8] * 8
 
 print(a, b)
 
