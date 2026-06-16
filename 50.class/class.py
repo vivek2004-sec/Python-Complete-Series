@@ -26,3 +26,5 @@ class city:
     
 a = city()
 print(a.city_name)
+a.city_name = "Pimpalgaon"
+print(a.city_name)
