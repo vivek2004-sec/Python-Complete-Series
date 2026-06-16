@@ -9,21 +9,21 @@
 
 # # 2. Multiplication of two Numbers
 
-# num1= float(input("Enter the first Number:"))
-# num2= float(input("Enter the second Number:"))
+num1= float(input("Enter the first Number:"))
+num2= float(input("Enter the second Number:"))
 
-# Multiplication= num1*num2
-# print("the multiplication of two numbers is:",Multiplication)
+Multiplication= num1*num2
+print("the multiplication of two numbers is:",Multiplication)
 
 
-# # 3. Division of two Numbers
+# 3. Division of two Numbers
 
-# num1= float(input('Enter the first number:'))
-# num2= float(input('Enter the second number:'))
+num1= float(input('Enter the first number:'))
+num2= float(input('Enter the second number:'))
             
-# Division= num1/num2
+Division= num1/num2
 
-# print("the division of two numbers is:", Division)
+print("the division of two numbers is:", Division)
 
 
 
