@@ -1,13 +1,13 @@
 # # 1.Sum of Two Numbers
 
-# num1= float(input("Enter the first Number:"))
-# num2= float(input("Enter the second Number:"))
+num1= float(input("Enter the first Number:"))
+num2= float(input("Enter the second Number:"))
 
-# sum= num1 + num2
+sum= num1 + num2
 
-# print("The sum of the two numbers is:",sum)
+print("The sum of the two numbers is:",sum)
 
-# # 2. Multiplication of two Numbers
+# 2. Multiplication of two Numbers
 
 num1= float(input("Enter the first Number:"))
 num2= float(input("Enter the second Number:"))
