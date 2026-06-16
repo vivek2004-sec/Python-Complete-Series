@@ -5,5 +5,4 @@ Introduction to Python:
 3. It is also dynamically typed meaning we don't have to specify the data type to the variable.
 4. Provides vast numbers of python libraries.
 5. Has very better readability compared to the other languages.
-
 6. used in web-development, Ai/ml, data science and so many numerous fields.
