@@ -11,4 +11,6 @@
 2. ''.join(...) = It is a string method which combines everything in one string, without leaving any space.
    for example : ['z', 'o', 'x'] -> 'zox'
 
-3. random.choices(...) = It is a function that picks random items from given list/string.
+3. random.choices(..., k=n) = It is a function that picks random n number of items from given list/string.
+
+4.
