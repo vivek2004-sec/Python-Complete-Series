@@ -8,4 +8,5 @@
 1. -> str : It is type hint that indicates that function returns a string.
    {symbol: ->, known as return type hint/return type annotation.}
 
-   ''.join(...) = It combines everything in one string. without leaving any space.
+2. ''.join(...) = It is a string method which combines everything in one string, without leaving any space.
+   for example : ['z', 'o', 'x'] -> 'zox'
