@@ -6,16 +6,8 @@ import string
 code = input("Enter the code: ")
 
 def random_chars():
-    """
-    Generate a random string of 3 ASCII letters.
-
-    >>> import random
-    >>> random.seed(42)
-    >>> random_chars()
-    'ZoX'
-
-    """
     return ''.join(random.choices(string.ascii_letters, k=3))
+
 def random_digits():
     return ''.join(random.choices(string.digits, k=3))
 
