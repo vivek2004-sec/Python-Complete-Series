@@ -25,60 +25,60 @@ def gmean(a, b):
     
   
     
-# def isgreater(a,b):
-#     if (a >b):
-#         print("a is greater than b.")
-#     else:
-#         print("b is greater than a.")
+def isgreater(a,b):
+    if (a >b):
+        print("a is greater than b.")
+    else:
+        print("b is greater than a.")
 
     
     
-# a = int(input("Enter the number: "))
-# b = int(input("Enter the number: "))
+a = int(input("Enter the number: "))
+b = int(input("Enter the number: "))
 
-# isgreater(a,b)
-# gmean(a,b)
+isgreater(a,b)
+gmean(a,b)
 
-# c = 12
-# d = 5
-# isgreater(c,d)
-# gmean(c,d)
+c = 12
+d = 5
+isgreater(c,d)
+gmean(c,d)
 
-# def evenodd(a):
-#     if (a % 2 == 0):
-#         print("even")
-#     else:
-#         print("odd")
+def evenodd(a):
+    if (a % 2 == 0):
+        print("even")
+    else:
+        print("odd")
     
-# a = 4
-# evenodd(a)
+a = 4
+evenodd(a)
 
-# m = 5
-# evenodd(m)
+m = 5
+evenodd(m)
 
-# def area_of_triangle(b, h):
-#     area_of_triangle = b*h/2
-#     print(area_of_triangle)
+def area_of_triangle(b, h):
+    area_of_triangle = b*h/2
+    print(area_of_triangle)
 
-# b = int(input("Enter the base: "))
-# h = int(input("Enter the height: "))
+b = int(input("Enter the base: "))
+h = int(input("Enter the height: "))
 
-# area_of_triangle(b, h)
+area_of_triangle(b, h)
 
-# def area_of_circle(r):
-#     area_of_circle = 3.14 * r*r
-#     print(area_of_circle)
+def area_of_circle(r):
+    area_of_circle = 3.14 * r*r
+    print(area_of_circle)
 
-# r = int(input("Enter the radius: "))
+r = int(input("Enter the radius: "))
 
-# area_of_circle(r)
+area_of_circle(r)
 
 
-# def area_of_rectangle(l, b):
-#     area_of_rectangle = l * b
-#     print(area_of_rectangle)
+def area_of_rectangle(l, b):
+    area_of_rectangle = l * b
+    print(area_of_rectangle)
 
-# l = int(input("Enter the length: "))
-# b = int(input("Enter the breadth: "))
+l = int(input("Enter the length: "))
+b = int(input("Enter the breadth: "))
 
-# area_of_rectangle(l, b)
+area_of_rectangle(l, b)
