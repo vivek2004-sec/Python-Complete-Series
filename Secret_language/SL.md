@@ -13,4 +13,4 @@
 
 3. random.choices(..., k=n) = It is a function that picks random n number of items from given list/string.
 
-4.
+4. 
