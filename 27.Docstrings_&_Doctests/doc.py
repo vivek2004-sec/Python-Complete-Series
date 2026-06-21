@@ -1,21 +1,10 @@
-# import testmod for testing our function 
-from doctest import testmod 
-  
-# define a function to test 
-def factorial(n): 
-    ''' 
-    This function calculates recursively and 
-    returns the factorial of a positive number. 
-    Define input and expected output: 
-    >>> factorial(3) 
-    6 
-    >>> factorial(5) 
-    120 
-    '''
-    if n <= 1: 
-        return 1
-    return n * factorial(n - 1) 
-  
-# call the testmod function 
-if __name__ == '__main__': 
-    testmod(name ='factorial', verbose = True)
+def add(a, b):
+    """
+    Adds two numbers.
+
+    >>> add(2, 3)
+    5
+    >>> add(10, 20)
+    30
+    """
+    return a + b
