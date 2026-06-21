@@ -8,3 +8,7 @@ But Docstrings are also used for testing purposes.
 # Doctest
 
 A doctest is a way to test your code inside docstring itself.You write an example of how the function works, and Python runs it automatically to check if the output is correct.
+
+To run doctest do this:
+
+python -m filename.py -v
