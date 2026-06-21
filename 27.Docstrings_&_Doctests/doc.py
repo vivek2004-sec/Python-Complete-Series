@@ -8,3 +8,6 @@ def add(a, b):
     30
     """
     return a + b
+# The >>> lines are the inputs and the lines below them are the expected outputs.
+
+print(add(2,3))
