@@ -18,4 +18,4 @@ A doctest is a way to test your code inside docstring itself.You write an exampl
 
 To run doctest do this:
 
-python -m filename.py -v
+python -m doctest filename.py -v
