@@ -32,6 +32,18 @@ def random_char() -> str:
     """
     return"".join(random.choices(string.ascii_letters, k= 3))
 
+def random_digits() -> str:
+    '''
+    gives the set of random 3 digits.
+    
+    >>> import random
+    >>> random.seed(42)
+    >>> random_digits()
+    "905"
+    
+    '''
+    return"".join(random.choices(string.digits, k=3))
+
 
 def encode(code: str) -> str:
     """_summary_
@@ -48,12 +60,12 @@ def encode(code: str) -> str:
     
     if (len(code)) >= 3:
         code = code[1:] + code[0]
-        code = random_char() + code + random_char()
+        code = random_char() + random_digits() + code + random_digits() + random_char()
     else:
         print(code)
     return code
     
+if __name__== "__main__":
     
-print(encode(code))
+  print(encode(code))
 
-print(random_char.__doc__)
