@@ -61,7 +61,10 @@ sorted_students = sorted(students, key=lambda x: x[1])
 print(sorted_students)
 # [('John', 19), ('Vivek', 21), ('Sara', 22)]
 
+peples = [('sujal', 12), ('vijay', 223), ('suyash', 34)]
 
+sorted_peoples = sorted(peples, key=lambda x:x[1])
+print(sorted_peoples)
 
 from functools import reduce
 
