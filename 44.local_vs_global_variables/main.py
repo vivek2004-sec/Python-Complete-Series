@@ -78,12 +78,32 @@ print(count)
 
 score = 0
 
-def add_score(points):
+def add_score(points: int) -> int:
+    """_summary_
+
+    Args:
+        points (int): _description_
+
+    Returns:
+        int: _description_
+        
+    It adds points to the score.
+    
+    >>> add_score(10)
+    10
+    """
     global score
     score += points
     print(score)
 
 def reset_score():
+    """"
+    It resets the value of the score to 0.
+    
+    >>> reset_score()
+    0
+    
+    """
     global score
     score = 0
     print(score)
