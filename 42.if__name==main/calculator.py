@@ -17,3 +17,11 @@ if __name__== "__main__":
 
 print(__name__)
     
+    
+multiplication = lambda a,b : a*b
+
+# def multiplication(a,b):
+#     return a*b
+
+if __name__ == "__main__":
+    print(multiplication(8,9))
