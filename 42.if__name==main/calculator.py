@@ -15,5 +15,5 @@ if __name__== "__main__":
    print(f"The sum is: {add(num1, num2)}")
    print(f"The difference  is: {subtract(num1, num2)}")
 
-
+print(__name__)
     
