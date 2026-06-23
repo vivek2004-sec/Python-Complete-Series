@@ -1,7 +1,7 @@
 # import hello
 
-# import hello
+import hello
 
-# print(__name__)
+print(__name__)
 
-import secret
+# import secret
