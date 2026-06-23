@@ -1,3 +1,3 @@
-import harry
+import calculator
 
-# harry.welcome()
+print(__name__)
