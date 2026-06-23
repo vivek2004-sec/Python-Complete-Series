@@ -1,6 +1,6 @@
 # Simple Rule:
 
-if **name** == "**main**":
+if ****name**** == "**main**":
 → Put code here that should ONLY run
 when you run THIS file directly
 
