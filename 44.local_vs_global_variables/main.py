@@ -1,14 +1,14 @@
 
 
 
-# name = "Vivek"        # global variable
+name = "Vivek"        # global variable
 
-# def my_function():
-#     name = "Kamble"   # local variable (different!)
-#     print(name)       # prints local
+def my_function():
+    name = "Kamble"   # local variable (different!)
+    print(name)       # prints local
 
-# my_function()
-# print(name)           # prints 
+my_function()
+print(name)           # prints 
 
 
 x = 5
