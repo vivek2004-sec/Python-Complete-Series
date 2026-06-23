@@ -7,11 +7,11 @@ def my_function():
     name = "Kamble"   # local variable (different!)
     print(name)       # prints local
 
-my_function()
-print(name)           # prints 
+my_function()          
+print(name)           # prints Vivek
 
 
-x = 5
+x = 5   
 
 def vue():
     global x
