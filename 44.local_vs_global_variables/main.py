@@ -76,17 +76,16 @@ print(count)
 # Score → 60
 # Score → 0   ← after reset
 
-
 score = 0
 
 def add_score(points):
     global score
     score += points
     print(score)
-    
+
 def reset_score():
     global score
-    score = 0 
+    score = 0
     print(score)
 
 
@@ -94,6 +93,3 @@ add_score(10)
 add_score(20)
 add_score(30)
 reset_score()
-
-
-
