@@ -9,6 +9,12 @@
     
 # print(__name__)
 # if  __name__=="__main__":
-#     print(encode("hello"))
+#     print(encode("hello")
 
-import harry
+from calculator import add 
+
+num1 = 10 
+num2 = 20
+
+
+print(f"The addition is : {add(num1, num2)}")
