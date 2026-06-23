@@ -12,9 +12,11 @@
 #     print(encode("hello")
 
 from calculator import add 
+from calculator import subtract
 
 num1 = 10 
 num2 = 20
 
 
 print(f"The addition is : {add(num1, num2)}")
+print(f"The difference is : {subtract(num1, num2)}")
