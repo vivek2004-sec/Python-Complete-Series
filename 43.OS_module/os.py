@@ -30,7 +30,7 @@ import os
 # print(os.path.isdir("vivek"))
 # print(os.path.getsize(".idea"))
 
-print(os.name)
+print(os.name) # for windows it gives nt
 # print(os.sep)
 
 
