@@ -23,8 +23,8 @@
    -> Creates:
 
 folder1/
-└── folder2/
-└── folder3/
+-└── folder2/
+------ -└── folder3/
 
 6. removing a file -> os.remove("file name")
 
