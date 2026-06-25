@@ -14,7 +14,7 @@ print(a is b)
 m = [3]
 n = [3]
 
-print(m == n)
-print(m is n)
+print(m == n) # true if values are same .
+print(m is n) # false even if values are same but points the different object.
 
 
