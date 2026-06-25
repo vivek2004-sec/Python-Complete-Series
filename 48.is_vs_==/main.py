@@ -14,7 +14,13 @@ print(a is b) # False
 m = [3]
 n = [3]
 
-print(m == n) # true if values are same .
-print(m is n) # false even if values are same but points the different object.
+print(m == n) # True if values are same .
+print(m is n) # False even if values are same but points the different object.
 
 
+# Always use :
+
+x = None
+
+if x is None:
+    print("x is none.")
