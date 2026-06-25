@@ -7,9 +7,11 @@ for i in folder:
     print(i)
 
 
+os.rename("43.OS_module", '43.os_module')
 
 
-os.mkdir("new_folder")
+
+# os.mkdir("new_folder")
 # os.makedirs("folder1/folder2/folder3")
 
 # os.remove("new.txt")
