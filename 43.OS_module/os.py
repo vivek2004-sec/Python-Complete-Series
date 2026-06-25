@@ -1,16 +1,16 @@
 import os 
 
-print(os.getcwd()) # Gives you current working directory your in.
-folder = os.listdir() # lists all the folders present in directory.
+# print(os.getcwd()) # Gives you current working directory your in.
+# folder = os.listdir() # lists all the folders present in directory.
 
-for i in folder:
-    print(i)
+# for i in folder:
+#     print(i)
 
 
 # os.rename("43.OS_module", '43.os_module')
 
 
-os.rmdir("vivek")
+# os.rmdir("vivek")
 # os.mkdir("new_folder")
 # os.makedirs("folder1/folder2/folder3")
 
@@ -30,7 +30,7 @@ os.rmdir("vivek")
 # print(os.path.isdir("vivek"))
 # print(os.path.getsize(".idea"))
 
-# print(os.name)
+print(os.name)
 # print(os.sep)
 
 
