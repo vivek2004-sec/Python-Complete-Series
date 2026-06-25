@@ -9,7 +9,7 @@ for i in folder:
 
 # os.rename("43.OS_module", '43.os_module')
 
-os.chdir("50.class")
+os.path.exists("50.class")
 
 # os.mkdir("new_folder")
 # os.makedirs("folder1/folder2/folder3")
