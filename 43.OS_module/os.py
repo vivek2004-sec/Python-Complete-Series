@@ -9,14 +9,14 @@ for i in folder:
 
 # os.rename("43.OS_module", '43.os_module')
 
-os.path.exists("50.class")
+
 
 # os.mkdir("new_folder")
 # os.makedirs("folder1/folder2/folder3")
 
 # os.remove("new.txt")
 
-# os.rmdir("new_folder")
+os.rmdir("new_folder")
 # os.removedirs("folder1/folder2/folder3")
 
 
