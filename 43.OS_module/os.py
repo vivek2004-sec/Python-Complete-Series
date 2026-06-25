@@ -8,7 +8,8 @@ import os
 
 
 # os.rename("43.OS_module", '43.os_module')
-
+size = os.path.getsize("39.Enumerate_function")
+print(size)
 
 
 # os.rmdir("vivek")
