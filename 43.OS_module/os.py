@@ -31,11 +31,12 @@ import os
 # print(os.path.getsize(".idea"))
 
 # print(os.name) # for windows it gives nt
-print(os.sep)
+# print(os.sep)
 
 
 
-# stats = os.stat("41.import/import.py")
+stats = os.stat("41.import/import.py")
+print(stats)
 
 # print("Size:", stats.st_size, "bytes")
 # print("Last modified:", stats.st_mtime)
