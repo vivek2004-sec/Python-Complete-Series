@@ -9,7 +9,7 @@ for i in folder:
 
 
 
-# os.mkdir("new_folder")
+os.mkdir("new_folder")
 # os.makedirs("folder1/folder2/folder3")
 
 # os.remove("new.txt")
