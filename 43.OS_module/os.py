@@ -26,9 +26,9 @@ for i in folder:
 # os.rename("new_folder", "vivek")
 
 # print(os.path.exists("vivek"))
-print(os.path.isfile("vivek"))
-print(os.path.isdir("vivek"))
-print(os.path.getsize(".idea"))
+# print(os.path.isfile("vivek"))
+# print(os.path.isdir("vivek"))
+# print(os.path.getsize(".idea"))
 
 # print(os.name)
 # print(os.sep)
