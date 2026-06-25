@@ -16,7 +16,7 @@ for i in folder:
 
 # os.remove("new.txt")
 
-os.rmdir("new_folder")
+# os.rmdir("new_folder")
 # os.removedirs("folder1/folder2/folder3")
 
 
