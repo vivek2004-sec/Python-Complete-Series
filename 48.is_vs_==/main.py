@@ -8,8 +8,8 @@ print(a == b)  # True - defferent objects, but same values.
 a = 3
 b = 3
 
-print(a == b)
-print(a is b)
+print(a == b) # True
+print(a is b) # False
 
 m = [3]
 n = [3]
