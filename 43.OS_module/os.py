@@ -1,7 +1,7 @@
 import os 
 
-print(os.getcwd())
-folder = os.listdir()
+print(os.getcwd()) # Gives you current working directory your in.
+folder = os.listdir() # lists all the folders present in directory.
 
 for i in folder:
     print(i)
