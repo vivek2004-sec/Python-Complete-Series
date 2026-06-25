@@ -35,8 +35,8 @@ import os
 
 
 
-stats = os.stat("41.import/import.py")
-print(stats)
+# stats = os.stat("41.import/import.py")
+# print(stats)
 
 # print("Size:", stats.st_size, "bytes")
 # print("Last modified:", stats.st_mtime)
