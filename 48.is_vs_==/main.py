@@ -11,4 +11,10 @@ b = 3
 print(a == b)
 print(a is b)
 
+m = [3]
+n = [3]
+
+print(m == n)
+print(m is n)
+
 
