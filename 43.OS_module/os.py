@@ -8,7 +8,7 @@ import os
 
 
 # os.rename("43.OS_module", '43.os_module')
-os.rename("42.if__name==main", "42.if __name__=='__main__'")
+
 
 
 # os.rmdir("vivek")
