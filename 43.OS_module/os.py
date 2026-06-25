@@ -21,7 +21,7 @@ for i in folder:
 
 
 
-# os.mkdir("new_folder")
+os.mkdir("new_folder")
 
 # os.rename("new_folder", "vivek")
 
