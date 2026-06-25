@@ -18,9 +18,20 @@ print(m == n) # True if values are same .
 print(m is n) # False even if values are same but points the different object.
 
 
+x = [23, 34]
+y = x 
+
+print(x == y) # True 
+print(x is y) # True
+
+
+
+
 # Always use :
 
 x = None
 
 if x is None:
     print("x is none.")
+    
+    
