@@ -1,4 +1,8 @@
-d = {1: 'Geeks', 2: 'For', 'age':22}
+d = {
+    "name": 'vivek', 
+    "city": 'kagal',
+    "age": 22
+}
 
 # Iterate over keys
 for keys in d:
@@ -10,4 +14,4 @@ for value in d.values():
     
 # Iterate over key-value pairs
 for key, value in d.items():
-    print(f"{keys}:{value}")
+    print(key,":",value)
