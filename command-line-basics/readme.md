@@ -15,7 +15,7 @@ A command line (also called CLI - Command Line Interface) is a text-based interf
 cd foldername - Change directory (enter a folder)
 cd .. - Go back one folder
 cd \ - Go to root directory (C:\)
-dir - List files and folders
+dir/ls - List files and folders
 mkdir foldername - Create a new folder
 rmdir foldername - Delete an empty folder
 del filename - Delete a file
