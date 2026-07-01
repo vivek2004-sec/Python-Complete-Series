@@ -81,7 +81,9 @@ Fish = fish("Nemo")
 Rabbit.flee()
 Rabbit.eat()
 Hawk.hunt()
+
 Fish.flee()
 Fish.hunt()
 
 Rabbit.sleep()
+Hawk.sleep()
