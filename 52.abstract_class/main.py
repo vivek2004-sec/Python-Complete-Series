@@ -44,4 +44,5 @@ class Boat(Vehicle):
         print("You stop the boat.")
 
 boat = Boat()
-    
+boat.go()
+boat.stop()
