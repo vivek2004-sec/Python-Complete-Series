@@ -11,6 +11,9 @@ class Circle(shape):
    def __init__(self, color, is_filled, radius):
        super().__init__(color, is_filled)
        self.radius = radius
+       
+   def describe(self):
+        print(f"The area of the circle is {3.14 * self.radius * self.radius}cm^2") # Method Overriding.
           
 class Square(shape): 
     def __init__(self, color, is_filled, width):
