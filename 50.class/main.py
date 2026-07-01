@@ -22,6 +22,9 @@ car2.describe()
 # Class Variables:
 
 class students:
+    
+    class_year = 2027
+    
     def __init__(self, name, age):
         self.age = age
         self.name = name
@@ -31,5 +34,7 @@ student2 = students('Patrick', 20)
 print(student1)
 print(student1.name)
 print(student1.age)
+print(students.class_year)
 print(student2.name)
 print(student2.age)
+print(students.class_year)
