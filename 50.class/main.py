@@ -27,6 +27,9 @@ class students:
         self.name = name
         
 student1 = students('Spongebob', 20)
+student2 = students('Patrick', 20)
 print(student1)
 print(student1.name)
 print(student1.age)
+print(student2.name)
+print(student2.age)
