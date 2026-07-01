@@ -8,3 +8,9 @@ class child(Parent)
 
 1. Single Inheritance
    One child, One parent.
+
+class Animal: # parent
+pass
+
+class Dog(Animal): # child
+pass
