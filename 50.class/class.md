@@ -11,3 +11,4 @@ Attributes are always public and can be accessed using the dot (.) operator.
 
 shared among all instances of class defined outside the constructor allow you to share all data among the objects
 created from that class.
+It's good to access the class variable by it's own class.
