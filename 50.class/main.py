@@ -34,6 +34,7 @@ class students:
 student1 = students('Spongebob', 20)
 student2 = students('Patrick', 20)
 student2 = students('Squidward', 40)
+student2 = students('Sandy', 27)
 print(student1)
 print(student1.name)
 print(student1.age)
