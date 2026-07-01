@@ -18,18 +18,17 @@ print(a.city)
 
 
 class city:
-    city_name = "Kagal"
-    district = 'Kolhapur'
-    state = "Maharashtra"
-    country = "India"
-    pin_code = 416-216
+    def __init__(self, city_name, country, pincode):
+        self.city_name = city_name
+        self.country = country
+        self.pincode = pincode
+          
     
-a = city()
+a = city("kagal", "India", 416-216)
 print(a.city_name)
-a.city_name = "Pimpalgaon"
-print(a.city_name)
-a.country = "USA"
 print(a.country)
+print(a.pincode)
+
 
 
 class car: 
