@@ -5,13 +5,14 @@ class Circle:
        self.radius = radius
           
 class Square: 
-    def __init__(self, color, is_filled, edges):
+    def __init__(self, color, is_filled, width):
         self.color = color
         self.is_filled = is_filled
-        self.edges = edges
+        self.width = width
 
 class Triangle:
-    def __init__(self, color, is_filled, edges):
+    def __init__(self, color, is_filled, width, height):
         self.color = color
         self.is_filled = is_filled
-        self.edges = edges
+        self.width = width
+        self.height = height
