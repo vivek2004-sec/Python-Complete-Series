@@ -22,4 +22,8 @@ class Triangle(shape):
         
         
 circle = Circle("red", True, 5)
+square = Square("White", True, 7)
 print(circle.color)
+print(circle.is_filled)
+print(square.color)
+print(square.is_filled)
