@@ -21,4 +21,5 @@ class Car(Vehicle):
     
 
 car = Car()
-    
+car.go()
+car.stop()
