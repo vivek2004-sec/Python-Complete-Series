@@ -24,11 +24,12 @@ car2.describe()
 class students:
     
     class_year = 2027
-    num_students = 25
+    num_students = 0
     
     def __init__(self, name, age):
         self.age = age
         self.name = name
+        students.num_students += 1
         
 student1 = students('Spongebob', 20)
 student2 = students('Patrick', 20)
