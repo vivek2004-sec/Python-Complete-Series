@@ -19,3 +19,7 @@ class Triangle(shape):
         super().__init__(color, is_filled)
         self.width = width
         self.height = height
+        
+        
+circle = Circle("red", True, 5)
+print(circle.color)
