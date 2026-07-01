@@ -1,7 +1,7 @@
 from car import car
         
-car1 = car("mustang", 2022, "black", False)
-car2 = car("corvette", 2024, "blue", True)
+car1 = car("mustang", 2022, "black", False) # object
+car2 = car("corvette", 2024, "blue", True)  # object
 print(car1)
 print(car1.model) # (.) is know attribute access operator.
 print(car1.color) 
