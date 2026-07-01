@@ -45,17 +45,24 @@ mouse.sleep()
 
 
 class Animal:
+    
+    def __init__(self, name):
+         self.name = name
+     
     def eat(self):
-        print("This animal is eating.")
+        print(f"This {self.name} is eating.")
+        
     def sleep(self):
-        print("This animal is sleeping.")
+        print(f"This {self.name} is sleeping.")
+        
+        
 class prey(Animal):
     def flee(self):
-        print("This animal is fleeing.")
+        print(f"This {self.name} is fleeing.")
 
 class predator(Animal):
     def hunt(self):
-        print("This animal is hunting.")
+        print(f"This {self.name} is hunting.")
 
 
 class rabbit(prey):
@@ -67,9 +74,9 @@ class hawk(predator):
 class fish(prey, predator):
     pass
 
-Rabbit = rabbit()
-Hawk = hawk()
-Fish = fish()
+Rabbit = rabbit("Bugs")
+Hawk = hawk("Tony")
+Fish = fish("Nemo")
 
 Rabbit.flee()
 Rabbit.eat()
