@@ -24,6 +24,7 @@ car2.describe()
 class students:
     
     class_year = 2027
+    num_students = 25
     
     def __init__(self, name, age):
         self.age = age
@@ -38,3 +39,4 @@ print(students.class_year)
 print(student2.name)
 print(student2.age)
 print(students.class_year)
+print(students.num_students)
