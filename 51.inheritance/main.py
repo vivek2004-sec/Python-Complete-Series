@@ -50,19 +50,19 @@ class Animal:
          self.name = name
      
     def eat(self):
-        print(f" {self.name} is eating.")
+        print(f"{self.name} is eating.")
         
     def sleep(self):
-        print(f" {self.name} is sleeping.")
+        print(f"{self.name} is sleeping.")
         
         
 class prey(Animal):
     def flee(self):
-        print(f" {self.name} is fleeing.")
+        print(f"{self.name} is fleeing.")
 
 class predator(Animal):
     def hunt(self):
-        print(f" {self.name} is hunting.")
+        print(f"{self.name} is hunting.")
 
 
 class rabbit(prey):
@@ -83,3 +83,5 @@ Rabbit.eat()
 Hawk.hunt()
 Fish.flee()
 Fish.hunt()
+
+Rabbit.sleep()
