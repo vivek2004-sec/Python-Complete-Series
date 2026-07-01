@@ -20,6 +20,8 @@ class Car(Vehicle):
         print("You stop the car.")
     
 class Motorcycle(Vehicle):
+    def __init__(self, name):
+        self.name = name
     
     def go(self):
         print("You ride the motorcycle.")
@@ -27,3 +29,6 @@ class Motorcycle(Vehicle):
     def stop(self):
         print("You stop the motorcycle.")
     
+    
+motorcycle = Motorcycle("Bullet")
+print(motorcycle.name)
