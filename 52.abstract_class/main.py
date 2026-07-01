@@ -32,3 +32,5 @@ class Motorcycle(Vehicle):
     
 motorcycle = Motorcycle("Bullet")
 print(motorcycle.name)
+motorcycle.go()
+motorcycle.stop()
