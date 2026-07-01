@@ -31,16 +31,7 @@ print(a.pincode)
 
 
 
-class car: 
-    def __init__(self, model, year, color, for_sale): 
-        '''
-        __init__ is a special method in Python that runs automatically when 
-         you create an object from a class. It's called the constructor.
-        '''
-        self.model = model
-        self.year = year
-        self.color = color
-        self.for_sale = for_sale
+from car import car
         
 car1 = car("mustang", 2022, "black", False)
 car2 = car("corvette", 2024, "blue", True)
