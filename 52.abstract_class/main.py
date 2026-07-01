@@ -19,7 +19,11 @@ class Car(Vehicle):
     def stop(self):
         print("You stop the car.")
     
-
-car = Car()
-car.go()
-car.stop()
+class Motorcycle(Vehicle):
+    
+    def go(self):
+        print("You ride the motorcycle.")
+        
+    def stop(self):
+        print("You stop the motorcycle.")
+    
