@@ -33,7 +33,8 @@ print(a.country)
 
 
 class car: 
-    def __init__(self, model, year, color, for_sale): # method
+    def __init__(self, model, year, color, for_sale): # __init__ is a special method in Python that runs automatically when 
+        # you create an object from a class. It's called the constructor.
         self.model = model
         self.year = year
         self.color = color
