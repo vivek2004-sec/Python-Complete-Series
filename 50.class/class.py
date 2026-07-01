@@ -46,3 +46,6 @@ class car:
 car1 = car("mustang", 2022, "black", False)
 print(car1)
 print(car1.model) # (.) is know attribute access operator.
+print(car1.year) 
+print(car1.color) 
+print(car1.for_sale) 
