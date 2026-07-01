@@ -7,14 +7,15 @@ Object Oriented Programming empowers developers to build modular, maintainable a
 3.Enables inheritance for reusability and hierarchy.
 4.Allows polymorphism for flexible method implementation.
 
-Class
+# Object :
+
+It is a "bundle" of related attributes (variables) and methods (functions).
+Ex: Table, Book, cup etc.
+
+# Class :
+
 A class is a collection of objects. Classes are blueprints for creating objects. A class defines a set of attributes and methods that the created objects (instances) can have.
 
 Classes are created by keyword class.
 Attributes are the variables that belong to a class.
 Attributes are always public and can be accessed using the dot (.) operator.
-
-# Object :
-
-It is a "bundle" of related attributes (variables) and methods (functions).
-Ex: Table, Book, cup etc.
