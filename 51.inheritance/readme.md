@@ -14,3 +14,7 @@ pass
 
 class Dog(Animal): # child
 pass
+
+2. Multiple Inheritance
+   inherit from more than one parent class
+   c(A,B)
