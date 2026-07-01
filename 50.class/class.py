@@ -33,13 +33,11 @@ print(a.country)
 
 
 class car: 
-    def __int__(self, model, year, color, for_sale): # method
+    def __init__(self, model, year, color, for_sale): # method
         self.model = model
         self.year = year
         self.color = color
         self.for_sale = for_sale
         
-car1 = car("mustang", "springer", 2022, "black", False)
-        
-        
-        
+car1 = car("mustang", 2022, "black", False)
+print(car1)
