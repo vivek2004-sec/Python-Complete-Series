@@ -38,10 +38,10 @@ motorcycle.stop()
 
 class Boat(Vehicle):
     def go(self):
-        print("You ride the boat.")
+        print("You sail the boat.")
         
     def stop(self):
-        print("You stop the boat.")
+        print("You anchor the boat.")
 
 boat = Boat()
 boat.go()
