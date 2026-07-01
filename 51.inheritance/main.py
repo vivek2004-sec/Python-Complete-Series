@@ -27,3 +27,4 @@ mouse = Mouse("Jerry")
 
 
 print(dog.name)
+print(dog.is_alive)
