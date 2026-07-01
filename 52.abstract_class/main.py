@@ -34,3 +34,14 @@ motorcycle = Motorcycle("Bullet")
 print(motorcycle.name)
 motorcycle.go()
 motorcycle.stop()
+
+
+class Boat(Vehicle):
+    def go(self):
+        print("You ride the boat.")
+        
+    def stop(self):
+        print("You stop the boat.")
+
+boat = Boat()
+    
