@@ -43,11 +43,17 @@ mouse.sleep()
 
 # Multiple Inheritance:
 
-class prey:
+
+class Animal:
+    def eat(self):
+        print("This animal is eating.")
+    def sleep(self):
+        print("This animal is sleeping.")
+class prey(Animal):
     def flee(self):
         print("This animal is fleeing.")
 
-class predator:
+class predator(Animal):
     def hunt(self):
         print("This animal is hunting.")
 
@@ -66,6 +72,7 @@ Hawk = hawk()
 Fish = fish()
 
 Rabbit.flee()
+Rabbit.eat()
 Hawk.hunt()
 Fish.flee()
 Fish.hunt()
