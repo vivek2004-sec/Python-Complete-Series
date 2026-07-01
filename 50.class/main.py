@@ -17,3 +17,16 @@ car1.stop()
 car2.drive()
 car2.stop()
 car2.describe()
+
+
+# Class Variables:
+
+class students:
+    def __init__(self, name, age):
+        self.age = age
+        self.name = name
+        
+student1 = students('Spongebob', '20')
+print(student1)
+print(student1.name)
+print(student1.age)
