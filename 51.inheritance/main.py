@@ -40,3 +40,32 @@ print(mouse.name)
 print(mouse.is_alive)
 mouse.eat()
 mouse.sleep()
+
+# Multiple Inheritance:
+
+class prey:
+    def flee(self):
+        print("This animal is fleeing.")
+
+class predator:
+    def hunt(self):
+        print("This animal is hunting.")
+
+
+class rabbit(prey):
+    pass
+
+class hawk(predator):
+    pass
+
+class fish(prey, predator):
+    pass
+
+Rabbit = rabbit()
+Hawk = hawk()
+Fish = fish()
+
+Rabbit.flee()
+Hawk.hunt()
+Fish.flee()
+Fish.hunt()
