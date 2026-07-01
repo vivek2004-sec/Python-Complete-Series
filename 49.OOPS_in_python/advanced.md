@@ -13,3 +13,8 @@ A class is a collection of objects. Classes are blueprints for creating objects.
 Classes are created by keyword class.
 Attributes are the variables that belong to a class.
 Attributes are always public and can be accessed using the dot (.) operator.
+
+# Object :
+
+It is a "bundle" of related attributes (variables) and methods (functions).
+Ex: Table, Book, cup etc.
