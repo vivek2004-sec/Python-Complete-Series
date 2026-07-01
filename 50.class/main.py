@@ -14,3 +14,5 @@ print(car2.for_sale)
 
 car1.drive()
 car1.stop()
+car2.drive()
+car2.stop()
