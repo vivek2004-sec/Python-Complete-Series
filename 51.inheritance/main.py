@@ -30,3 +30,13 @@ print(dog.name)
 print(dog.is_alive)
 dog.eat()
 dog.sleep()
+
+print(cat.name)
+print(cat.is_alive)
+cat.eat()
+cat.sleep()
+
+print(mouse.name)
+print(mouse.is_alive)
+mouse.eat()
+mouse.sleep()
