@@ -25,6 +25,7 @@ class cup:
 b = cup()
 b.beverage = "coffee"
 print(b.beverage)
+b.size = 60
 print(b.size)
 print(b.is_hot)
     
