@@ -49,3 +49,15 @@ __init__ = The moment the house is being built
            (sets up all the initial details)
 
 """
+
+
+class School:
+    def __init__(self, name, students, classes):
+        self.name = name
+        self.students = students
+        self.classes = classes
+        
+school = School("SMS", 30, 8)
+print(school.classes)
+print(school.students)
+print(school.name)
