@@ -19,32 +19,7 @@ car2.stop()
 car2.describe()
 
 
-class Human:
 
-    Gender = "male"
-    def __init__(self, name, age, health, occupation):
-
-        self.name = name
-        self.age = age
-        self.health = health
-        self.occupation = occupation
-
-
-    def drive(self):
-        print("You can drive")
-
-    def doing_great(self):
-            print("You are doing great")
-
-person = Human("John", 40, "great", "doctor")
-print(person.name)
-print(person.age)
-print(person.health)
-print(person.occupation)
-print(Human.Gender)
-
-person.drive()
-person.doing_great()
 
 # Class Variables:
 
@@ -71,3 +46,33 @@ print(student2.name)
 print(student2.age)
 print(students.class_year)
 print(f"My graduating class of {students.class_year} has total of {students.num_students} students.")
+
+
+
+
+class Human:
+
+    Gender = "male"
+    def __init__(self, name, age, health, occupation):
+
+        self.name = name
+        self.age = age
+        self.health = health
+        self.occupation = occupation
+
+
+    def drive(self):
+        print("You can drive")
+
+    def doing_great(self):
+            print("You are doing great")
+
+person = Human("John", 40, "great", "doctor")
+print(person.name)
+print(person.age)
+print(person.health)
+print(person.occupation)
+print(Human.Gender)
+
+person.drive()
+person.doing_great()
