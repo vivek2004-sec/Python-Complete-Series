@@ -239,3 +239,7 @@ Want me to explain classes and objects in more detail?
 What is **init**?
 **init** is a special method in Python that runs automatically when you create an object from a class.
 It's called the constructor.
+
+# What is self?
+
+self refers to the current object being created. It's how the object refers to itself.
