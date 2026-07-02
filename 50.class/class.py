@@ -17,6 +17,17 @@ print(a.name)
 print(a.city)
 
 
+class cup:
+    beverage = "tea"
+    size = 30
+    is_hot = True
+    
+b = cup()
+print(b.beverage)
+print(b.size)
+print(b.is_hot)
+    
+
 class city:
     def __init__(self, city_name, country, pincode):
         self.city_name = city_name
