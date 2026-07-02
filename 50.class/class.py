@@ -42,5 +42,10 @@ print(a.city_name)
 print(a.country)
 print(a.pincode)
 
+"""
+Class = Blueprint of a house
+Object = Actual house built from that blueprint
+__init__ = The moment the house is being built
+           (sets up all the initial details)
 
-
+"""
