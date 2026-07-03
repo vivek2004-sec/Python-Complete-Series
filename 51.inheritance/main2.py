@@ -3,7 +3,7 @@ class school:
         print("shraddha Modern School, kagal.")
         
 class classroom:
-    def std(self, ):
+    def std(self ):
         print(10)
         
 class student(school, classroom):
@@ -11,4 +11,4 @@ class student(school, classroom):
 
 boy = student()
 boy.name_of_the_school()
-boy.classroom()
+boy.std()
