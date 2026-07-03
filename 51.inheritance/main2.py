@@ -20,10 +20,13 @@ class vehicle:
 # bike.drive()
 # bike.stop()
 
-class Bike(vehicle):
+class motorcycle(vehicle):
     pass
 
 class car(vehicle):
     pass
         
-       
+
+bike = motorcycle("kawasaki", 400)
+print(bike.name)
+print(bike.hp)
