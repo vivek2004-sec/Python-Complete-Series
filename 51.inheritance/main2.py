@@ -1,41 +1,14 @@
-# single Inheritance:
-
-class vehicle:
-    def __init__(self, name, hp):
-        self.name = name
-        self.hp = hp
+class school:
+    def name_of_the_school(self):
+        print("shraddha Modern School, kagal.")
         
+class classroom:
+    def std(self, ):
+        print(10)
         
-    def drive(self):
-        print("You can drive.")
-        
-    def stop(self):
-        print("You can stop.")
-        
-        
-# bike = vehicle("kawasaki", 200)
-# print(bike)
-# print(bike.name)
-# print(bike.hp)
-# bike.drive()
-# bike.stop()
-
-class motorcycle(vehicle):
+class student(school, classroom):
     pass
 
-class car(vehicle):
-    pass
-        
-
-bike = motorcycle("kawasaki", 400)
-bike.drive()
-bike.stop()
-print(bike.name)
-print(bike.hp)
-
-
-Car = car("swift", 700)
-print(Car.name)
-print(Car.hp)
-Car.drive()
-Car.stop()
+boy = student()
+boy.name_of_the_school()
+boy.classroom()
