@@ -14,4 +14,7 @@ class boy(classroom, student):
     pass
 
 b = boy("SMS", "kagal")
-print(b)
+print(b.school_name)
+print(b.city)
+b.classroom()
+b.name()
