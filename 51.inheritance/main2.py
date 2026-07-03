@@ -32,3 +32,10 @@ bike.drive()
 bike.stop()
 print(bike.name)
 print(bike.hp)
+
+
+Car = car("swift", 700)
+print(Car.name)
+print(Car.hp)
+Car.drive()
+Car.stop()
