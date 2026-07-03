@@ -28,5 +28,7 @@ class car(vehicle):
         
 
 bike = motorcycle("kawasaki", 400)
+bike.drive()
+bike.stop()
 print(bike.name)
 print(bike.hp)
