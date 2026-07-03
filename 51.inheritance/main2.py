@@ -13,8 +13,17 @@ class vehicle:
         print("You can stop.")
         
         
-bike = vehicle("kawasaki", 200)
-print(bike)
-print(bike.name)
-print(bike.hp)
-bike.drive()
+# bike = vehicle("kawasaki", 200)
+# print(bike)
+# print(bike.name)
+# print(bike.hp)
+# bike.drive()
+# bike.stop()
+
+class Bike(vehicle):
+    pass
+
+class car(vehicle):
+    pass
+        
+       
