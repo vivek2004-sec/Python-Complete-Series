@@ -15,3 +15,5 @@ class vehicle:
         
 bike = vehicle("kawasaki", 200)
 print(bike)
+print(bike.name)
+print(bike.hp)
