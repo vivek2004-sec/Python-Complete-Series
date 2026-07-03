@@ -1,14 +1,16 @@
 class school:
-    def name_of_the_school(self):
-        print("shraddha Modern School, kagal.")
-        
+    def school(self, school_name, city):
+        self.school_name = school_name
+        self.city = city    
 class classroom:
-    def std(self ):
-        print(10)
+    def classroom(self, std, total ):
+        self.std = std
+        self.total = total
         
 class student(school, classroom):
-    pass
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
 
-boy = student()
-boy.name_of_the_school()
-boy.std()
+boy = student(school_name = "SMS", city = "kagal", std = 10, total = 30, name= "vivek", age=22 )
+print(boy)
