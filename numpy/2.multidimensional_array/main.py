@@ -12,8 +12,8 @@ import numpy as np
 # print(array.ndim)             # 1
 
 
-array = np.array([['A', 'B', 'C'], 
-                 ['D', 'E', 'F'], 
-                 ['G', 'H', 'I']] ) 
+array = np.array([[['A', 'B', 'C'], ['D', 'E', 'F'], ['G', 'H', 'I']],
+                  [['J', 'K', 'L'], ['M', 'N', 'O'], ['P', 'Q', 'R']],
+                  [['S', 'T', 'U'], ['V', 'W', 'X'], ['Y', 'Z', '$']]] ) 
 
 print(array.ndim)
