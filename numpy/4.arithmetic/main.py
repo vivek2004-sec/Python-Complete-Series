@@ -12,9 +12,12 @@ import numpy as np
 
 # Vectorized maths functions:
 
-array = np.array([1.23, 2.005, 3.987])
-print(np.sqrt(array))
-print(np.round(array))
-print(np.floor(array))
-print(np.ceil(array))
-print(np.pi)
+# array = np.array([1.23, 2.005, 3.987])
+# print(np.sqrt(array))
+# print(np.round(array))
+# print(np.floor(array))
+# print(np.ceil(array))
+# print(np.pi)
+
+radii = np.array([1,2,3])
+print(np.pi * radii ** 2)
