@@ -12,3 +12,8 @@ import numpy as np
 # print(array.ndim)             # 1
 
 
+array = np.array([['A', 'B', 'C'], 
+                 ['D', 'E', 'F'], 
+                 ['G', 'H', 'I']] ) 
+
+print(array.ndim)
