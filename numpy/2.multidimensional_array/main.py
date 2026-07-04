@@ -5,15 +5,20 @@ import numpy as np
 
 
 # array = np.array([1, 2])
-# print(array.ndim)         # 1
+# print(array.ndim)         # rank 1
 
 
 # array = np.array([1, 2, 3, 4])
-# print(array.ndim)             # 1
+# print(array.ndim)             # rank 1
+
+# array = np.array([['A', 'B', 'C'], 
+#                   ['D', 'E', 'F'], 
+#                   ['G', 'H', 'I']])
+# print(array.ndim)                   # rank 2
 
 
 array = np.array([[['A', 'B', 'C'], ['D', 'E', 'F'], ['G', 'H', 'I']],
                   [['J', 'K', 'L'], ['M', 'N', 'O'], ['P', 'Q', 'R']],
                   [['S', 'T', 'U'], ['V', 'W', 'X'], ['Y', 'Z', '$']]] ) 
 
-print(array.ndim)
+print(array.ndim)                                                             # rank 3
