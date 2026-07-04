@@ -13,3 +13,10 @@ A NumPy array (ndarray) is a collection of elements of the same data type stored
 
 4. In NumPy, shape tells you the size of an array along each of its dimensions.
    It's a tuple that describes the array's structure.
+   For example : array = np.array([[['A', 'B', 'C'], ['D', 'E', 'F'], ['G', 'H', 'I']],
+   [['J', 'K', 'L'], ['M', 'N', 'O'], ['P', 'Q', 'R']],
+   [['S', 'T', 'U'], ['V', 'W', 'X'], ['Y', 'Z', '$']]] )
+   output : (3, 3, 3)
+   -> 3 : it means array has 3 layers.
+   -> 3 : 3 rows
+   -> 3: each row has 3 columns.
