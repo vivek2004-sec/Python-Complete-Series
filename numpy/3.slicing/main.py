@@ -29,3 +29,4 @@ array = np.array([[1, 2, 3, 4],
 
 # For rows and columns:
 print(array[0:2, 0:2])
+print(array[0:2, 2:4])
