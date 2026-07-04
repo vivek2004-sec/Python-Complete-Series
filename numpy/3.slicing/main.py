@@ -7,3 +7,9 @@ array = np.array([[1, 2, 3, 4],
 
 print(array.ndim)
 print(array.shape)
+
+# For slicing we use array[start:end:step]
+print(array[0])
+print(array[1])
+print(array[2])
+print(array[3])
