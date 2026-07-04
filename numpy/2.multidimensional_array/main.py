@@ -24,4 +24,9 @@ array = np.array([[['A', 'B', 'C'], ['D', 'E', 'F'], ['G', 'H', 'I']],
 
 print(array.ndim)                                                             # rank 3
 print(array.shape)                                                            # (3, 3, 3)
-print(array[0][0][0])                                                         # A
+print(array[0][0][0])      # Chain indexing                                   # A
+print(array[0, 0, 0])      # Multidimensional indexing                        # A
+print(array[0, 0, 1])   
+print(array[0, 0, 2])   
+print(array[0, 1, 0])   
+print(array[2, 2, 2])   
