@@ -10,3 +10,6 @@ A NumPy array (ndarray) is a collection of elements of the same data type stored
 
 3.Elements are accessed using square brackets [] and arrays are commonly created from Python lists.
 -> array = np.array([[1, 2, 3]])
+
+4. In NumPy, shape tells you the size of an array along each of its dimensions.
+   It's a tuple that describes the array's structure.
