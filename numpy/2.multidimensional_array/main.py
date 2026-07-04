@@ -31,3 +31,7 @@ print(array[0, 0, 2])
 print(array[0, 1, 0])   
 print(array[2, 2, 2])   
 # print(array[layer-index, row-index, column-index])   
+
+#  Create a word 'vivek'
+
+print(array[2, 1, 0] + array[0, 2, 2 ] + array[2, 1, 0] + array[0, 1, 1]+ array[1, 0, 1])
