@@ -18,3 +18,10 @@ print(b.school_name)
 print(b.city)
 b.classroom()
 b.name()
+
+
+import numpy as np
+
+s = [1,2,3]
+v = np.array(s) * 2
+print(v)
