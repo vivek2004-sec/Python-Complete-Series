@@ -6,3 +6,12 @@ python is generally very slow so when dealing with big numerical things numpy ca
 the code into the c which makes it more faster.
 With numpy we can perform vectorized operations.
 numpy gives you special tools to work with larger numerical datasets efficiantaly.
+
+# Python topics you need to know:
+
+1. Variables
+2. Data Types
+3. Lists
+4. Loops
+5. Functions
+6. Indexing
