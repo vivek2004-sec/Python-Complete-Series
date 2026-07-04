@@ -5,14 +5,18 @@ array = np.array([[1, 2, 3, 4],
                   [9, 10, 11, 12],
                   [13, 14, 15, 16]])
 
-print(array.ndim)
-print(array.shape)
+# print(array.ndim)
+# print(array.shape)
 
 # For slicing we use array[start:end:step]
-print(array[0])
-print(array[1])
-print(array[0:3])
-print(array[1:4])
-print(array[0:4:2])
-print(array[::2])
-print(array[::-1]) # returns rows in reverse order.
+# For row selections
+# print(array[0])
+# print(array[1])
+# print(array[0:3])
+# print(array[1:4])
+# print(array[0:4:2])
+# print(array[::2])
+# print(array[::-1]) # returns rows in reverse order.
+
+# #  For columns :
+print(array[0, 0])
