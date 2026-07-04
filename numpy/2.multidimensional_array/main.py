@@ -23,4 +23,5 @@ array = np.array([[['A', 'B', 'C'], ['D', 'E', 'F'], ['G', 'H', 'I']],
                   [['S', 'T', 'U'], ['V', 'W', 'X'], ['Y', 'Z', '$']]] ) 
 
 print(array.ndim)                                                             # rank 3
-print(array.shape)                                                             
+print(array.shape)                                                            # (3, 3, 3)
+print(array[0][0][0])                                                         # A
