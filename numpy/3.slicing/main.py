@@ -18,7 +18,7 @@ array = np.array([[1, 2, 3, 4],
 # print(array[::2])
 # print(array[::-1]) # returns rows in reverse order.
 
-# #  For columns :
+ #  For columns :
 # print(array[0, 0])
 # print(array[:, 2]) # to select all rows 
 # print(array[:, 1]) 
@@ -26,3 +26,6 @@ array = np.array([[1, 2, 3, 4],
 # print(array[:, 1:4]) 
 # print(array[:, ::2]) 
 # print(array[:, ::-1]) # in reverse order
+
+# For rows and columns:
+print(array[0:2, 0:2])
