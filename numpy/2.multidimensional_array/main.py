@@ -5,7 +5,8 @@ import numpy as np
 
 
 # array = np.array([1, 2])
-# print(array.ndim)         # rank 1
+# print(array.ndim)    # rank 1
+# print(array.size)    # 2
 
 
 # array = np.array([1, 2, 3, 4])
