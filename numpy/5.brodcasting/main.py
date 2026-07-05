@@ -22,3 +22,6 @@ print(array1.shape)
 print(array2.shape)
 array3 = array1 * array2
 print(array3)
+print(array3.ndim)
+print(array3.shape)
+print(array3.size)
