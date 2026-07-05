@@ -16,7 +16,7 @@ Scalar arithmetic: scalar means single value.
 # print(array // 2)
 
 """
- Vectorized maths functions:
+Vectorized maths functions:
 """
 
 # array = np.array([1.23, 2.005, 3.987])
@@ -29,4 +29,7 @@ Scalar arithmetic: scalar means single value.
 # radii = np.array([1,2,3])
 # print(np.pi * radii ** 2)
 
+'''
+Element-wise Arithmetic:
+'''
 
