@@ -15,6 +15,7 @@ Object Oriented Programming empowers developers to build modular, maintainable a
 # Object :
 
 It is a "bundle" of related attributes (variables) and methods (functions).
+Object is an instance of a class.
 Ex: Table, Book, cup etc.
 
 # Class :
@@ -25,3 +26,7 @@ defines properties & behaviours an object can have.
 Classes are created by keyword class.
 Attributes are the variables that belong to a class.
 Attributes are always public and can be accessed using the dot (.) operator.
+
+# Attributes:
+
+Attributes (also called fields, properties, or member variables) are the variables defined inside a class that hold data describing the characteristics of an object. If a method defines what an object can do, an attribute defines what an object has or is.

@@ -53,9 +53,9 @@ __init__ = The moment the house is being built
 
 class School:
     def __init__(self, name, students, classes):
-        self.name = name
-        self.students = students
-        self.classes = classes
+        self.name = name                         # attribute
+        self.students = students                 # attribute
+        self.classes = classes                   # attribute
         
 school = School("SMS", 30, 8)
 print(school.classes)
