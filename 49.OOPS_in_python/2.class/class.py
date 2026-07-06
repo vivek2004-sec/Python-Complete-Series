@@ -47,12 +47,13 @@ Class = Blueprint of a house
 Object = Actual house built from that blueprint
 __init__ = The moment the house is being built
            (sets up all the initial details)
+           it initializes the data.
 
 """
 
 
 class School:
-    def __init__(self, name, students, classes):
+    def __init__(self, name, students, classes): # School.__init__(school, SMS, 30, 8) this is how constructor is called.
         self.name = name                         # attribute
         self.students = students                 # attribute
         self.classes = classes                   # attribute
