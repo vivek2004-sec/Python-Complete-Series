@@ -31,7 +31,7 @@ print(b.is_hot)
     
 
 class city:
-    def __init__(self, city_name, country, pincode):
+    def __init__(self, city_name, country, pincode):  # self refers to current object being created.
         self.city_name = city_name
         self.country = country
         self.pincode = pincode
