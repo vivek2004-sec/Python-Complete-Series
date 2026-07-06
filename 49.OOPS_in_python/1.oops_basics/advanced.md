@@ -30,3 +30,9 @@ Attributes are always public and can be accessed using the dot (.) operator.
 # Attributes:
 
 Attributes (also called fields, properties, or member variables) are the variables defined inside a class that hold data describing the characteristics of an object. If a method defines what an object can do, an attribute defines what an object has or is.
+
+# Methods:
+
+This defines the functions or things that objects can perform.
+eg, Car -> object
+Drive -> methods
