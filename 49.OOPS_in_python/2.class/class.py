@@ -48,7 +48,6 @@ Object = Actual house built from that blueprint
 __init__ = The moment the house is being built
            (sets up all the initial details)
            it initializes the data.
-
 """
 
 
