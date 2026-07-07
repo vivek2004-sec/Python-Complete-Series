@@ -1,7 +1,7 @@
 # Object Oriented Programming:
 
 It is a software design model that organizes code around 'objects' rather than logic.
-These objects bundle data(attributes) and functions(methods) together into a single modular unit.
+These objects bundles data(attributes) and functions(methods) together into a single modular unit.
 
 # OOPS IN PYTHON:
 
