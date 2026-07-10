@@ -20,3 +20,5 @@ A NumPy array (ndarray) is a collection of elements of the same data type stored
    -> 3 : it means array has 3 layers.
    -> 3 : 3 rows
    -> 3 : each row has 3 columns.
+
+5. Dimensions of array in python also called as axes.
