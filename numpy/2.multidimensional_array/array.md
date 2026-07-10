@@ -7,6 +7,8 @@ A NumPy array (ndarray) is a collection of elements of the same data type stored
 
 2.Size of the array along each dimension is called its shape.
 -> Size of the array refers to total number of the elements it contains across all the dimensions.
+-> ndarray.size
+the total number of elements of the array. This is equal to the product of the elements of shape.
 
 3.Elements are accessed using square brackets [] and arrays are commonly created from Python lists.
 -> array = np.array([[1, 2, 3]])
@@ -25,6 +27,6 @@ A NumPy array (ndarray) is a collection of elements of the same data type stored
 
 6: Main objects:
 
-# ndarray.ndim
+# ndarray.ndim:
 
 the number of axes (dimensions) of the array.
