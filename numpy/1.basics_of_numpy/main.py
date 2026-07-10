@@ -10,3 +10,5 @@ print(type(array)) # <class 'numpy.ndarray'>
 
 array = array * 2
 print(array) # output: [2 4 6 8]
+
+print("Dimensions:",array.ndim)
