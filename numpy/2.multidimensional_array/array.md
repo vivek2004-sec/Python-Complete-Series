@@ -26,8 +26,10 @@ the total number of elements of the array. This is equal to the product of the e
 
 5. Dimensions of array in python also called as axes.
 
-6: Main objects:
+6. Main objects:
 
 # ndarray.ndim:
 
 the number of axes (dimensions) of the array.
+
+7. In NumPy, itemsize is an attribute of an array that returns the length of exactly one array element in bytes. It is entirely determined by the data type (dtype) of the array.

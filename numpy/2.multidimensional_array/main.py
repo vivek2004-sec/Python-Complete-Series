@@ -18,6 +18,7 @@ array = np.array([['A', 'B', 'C'],
 print(array.ndim)                   # rank 2
 print(array.shape)                  
 print(array.size)                  
+print("Itemsize: ",array.itemsize)                  
 
 
 array = np.array([[['A', 'B', 'C'], ['D', 'E', 'F'], ['G', 'H', 'I']],
