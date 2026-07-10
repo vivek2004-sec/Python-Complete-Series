@@ -9,8 +9,9 @@ import numpy as np
 # print(array.size)    # 2
 
 
-# array = np.array([1, 2, 3, 4])
-# print(array.ndim)             # rank 1
+array = np.array([1, 2, 3, 4])
+print(array.ndim)             # rank 1
+print(array.dtype) 
 
 array = np.array([['A', 'B', 'C'], 
                   ['D', 'E', 'F'], 
