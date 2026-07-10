@@ -19,9 +19,10 @@ the total number of elements of the array. This is equal to the product of the e
    [['J', 'K', 'L'], ['M', 'N', 'O'], ['P', 'Q', 'R']],
    [['S', 'T', 'U'], ['V', 'W', 'X'], ['Y', 'Z', '$']]] )
    output : (3, 3, 3)
-   -> 3 : it means array has 3 layers.
-   -> 3 : 3 rows
-   -> 3 : each row has 3 columns.
+   -> (m, n, p)
+   -> m : it means array has 3 layers.
+   -> n : 3 rows
+   -> p : each row has 3 columns.
 
 5. Dimensions of array in python also called as axes.
 
