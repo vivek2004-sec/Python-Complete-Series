@@ -25,3 +25,10 @@ print(array3)
 print(array3.ndim)
 print(array3.shape)
 print(array3.size)
+
+
+a = np.array([1, 2])
+b = np.array([[1,2],[3,4]])
+print(a.shape)
+print(b.shape)
+print(a*b)
