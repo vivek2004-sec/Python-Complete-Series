@@ -42,4 +42,3 @@ for shape in shapes:
     print(f"{shape.area()} cm²")
     
     
-Triangle.describe()
