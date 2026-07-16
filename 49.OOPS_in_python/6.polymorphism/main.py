@@ -40,3 +40,6 @@ shapes = [Circle(3), Square(5), Triangle(7, 9), pizza("cheese", 4)]
 
 for shape in shapes:
     print(f"{shape.area()} cm²")
+    
+    
+Triangle.describe()
