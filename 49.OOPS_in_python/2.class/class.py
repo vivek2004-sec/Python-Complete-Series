@@ -38,6 +38,7 @@ class city:
           
     
 a = city("kagal", "India", 416-216)
+del a
 print(a.city_name)
 print(a.country)
 print(a.pincode)
@@ -58,6 +59,8 @@ class School:
         self.classes = classes                   # attribute
         
 school = School("SMS", 30, 8)
+
 print(school.classes)
 print(school.students)
 print(school.name)
+
