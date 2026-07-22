@@ -37,12 +37,12 @@ class Pizza(Circle):
         self.toppings = toppings
 
 class Tile(Square):
-    def __int__(self, color, side):
+    def __init__(self,  color, side):
         super().__init__(side)
         self.color = color
 
 
-shapes = [Circle(3), Square(5), Triangle(7, 9), Pizza("cheese", 4) ]
+shapes = [Circle(3), Square(5), Triangle(7, 9), Pizza("cheese", 4), Tile("white", 6) ]
 
 for shape in shapes:
     print(f"{shape.area()} cm²")
