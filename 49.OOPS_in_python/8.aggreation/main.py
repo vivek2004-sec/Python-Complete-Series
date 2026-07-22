@@ -6,7 +6,10 @@ class Library:
     
     def add_book(self, book):
         self.books.append(book)
-
+        
+    def list_books(self):
+        return [f"{book.title} and {book.author}" for book in self.books]
+ 
 class Book:
     def __init__(self, title, author):
         self.title = title
@@ -31,3 +34,10 @@ print(book4.author)
 
 
 library.add_book(book1)
+library.add_book(book2)
+library.add_book(book3)
+library.add_book(book4)
+print(library.books)
+
+print(library.name)
+print(library.list_books())
