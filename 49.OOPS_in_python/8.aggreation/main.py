@@ -22,6 +22,7 @@ book1 = Book("Haary Potter Series", "J.K. Rowling")
 book2 = Book("The Hobbit Series", "J.R. R.  Tolkein")
 book3 = Book("IT", "stephen king")
 book4 = Book("gunaho ka devata", "divykumar bharati")
+# del book1
 print(book1.title)
 print(book1.author)
 print(book2.title)
