@@ -44,6 +44,9 @@ class tanvi(human):
 
 
 class robot:
+    def eat(self):
+        print("you can eat electricity.")
+        
     def gender(self):
         print("not specified!")
 
@@ -52,3 +55,4 @@ peoples = [vivek(), tanvi(), robot()]
 
 for i in peoples:
     i.gender()
+    i.eat()
