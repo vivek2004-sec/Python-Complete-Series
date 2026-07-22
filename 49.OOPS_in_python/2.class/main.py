@@ -3,7 +3,7 @@ from car import car
 car1 = car("mustang", 2022, "black", False) # object
 car2 = car("corvette", 2024, "blue", True)  # object
 print(car1)
-print(car1.model) # (.) is know attribute access operator.
+print(car1.model) # (.) is known as attribute access operator.
 print(car1.color) 
 print(car1.year) 
 print(car1.for_sale) 
@@ -25,8 +25,8 @@ car2.describe()
 
 class students:
     
-    class_year = 2027
-    num_students = 0
+    class_year = 2027  # class variable 
+    num_students = 0   # class variable
     
     def __init__(self, name, age):
         self.age = age

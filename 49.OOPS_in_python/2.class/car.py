@@ -8,7 +8,7 @@ class car:
          you create an object from a class. It's called the constructor.
          It initializes the data of respective object.
         '''
-        self.model = model #self represents the specific object you are currently creating or manipulating.
+        self.model = model # self represents the specific object you are currently creating or manipulating.
         self.year = year
         self.color = color
         self.for_sale = for_sale
