@@ -6,6 +6,7 @@ class car:
         '''
         __init__ is a special method in Python that runs automatically when 
          you create an object from a class. It's called the constructor.
+         It initializes the data of respective object.
         '''
         self.model = model
         self.year = year
