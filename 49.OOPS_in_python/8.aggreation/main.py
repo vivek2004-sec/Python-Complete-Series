@@ -10,6 +10,9 @@ class Book:
 library = Library("New York Public Library.")
 print(library.name)
 
-book = Book("Haary Potter Series", "J.K. Rowling")
-print(book.title)
-print(book.author)
+book1 = Book("Haary Potter Series", "J.K. Rowling")
+book2 = Book("The Hobbit Series", "J.R. R.  Tolkein")
+print(book1.title)
+print(book1.author)
+print(book2.title)
+print(book2.author)
