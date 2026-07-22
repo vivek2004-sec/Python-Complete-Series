@@ -27,6 +27,12 @@ Classes are created by keyword class.
 Attributes are the variables that belong to a class.
 Attributes are always public and can be accessed using the dot (.) operator.
 
+# class and object real life analogy :
+
+1. house blueprint vs house = The house's blueprint is the class. the actual house is the instance of the class.
+2. cake recipe vs cake = cake recipe is the class while actual cake is the instance of the class cake recipe.
+3. cookie cutter vs cookie = The cookie cutter is class every cookie you stamp out is the instance.
+
 # Attributes:
 
 Attributes (also called fields, properties, or member variables) are the variables defined inside a class that hold data describing the characteristics of an object. If a method defines what an object can do, an attribute defines what an object has or is.
