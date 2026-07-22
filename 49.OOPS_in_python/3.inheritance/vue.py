@@ -37,11 +37,29 @@ c.cooking()   # from Mother → Good cook
 
 # 3. Multilevel Inheritance:
 class Animal:           # grandparent
-    pass
-
+    def __init__(self, type):
+            
+            self.type = type
+            
+    def eat(self):
+        print(f"the {self.name} is eating.")
+    
 class Dog(Animal):      # parent
-    pass
+    def __init__(self, name, type):
+        super().__init__(type)
+        self.name = name
+        
+    def favorite(self):
+        print("he loves to play.")
 
 class Puppy(Dog):       # child
     pass
 # Puppy gets everything from both Dog AND Animal!
+
+
+puppy = Puppy( "golden", "shaggy")
+print(puppy.name)
+print(puppy.type)
+
+puppy.eat()
+puppy.favorite()
