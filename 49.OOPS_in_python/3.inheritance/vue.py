@@ -1,10 +1,20 @@
 # 1. Single Inheritance: 
     
 class Animal: # parent
-    pass
+    def __init__(self, name, type):
+        self.name = name
+        self.type = type
+        
+    def eat(self):
+        print(f"the {self.name} is eating.")
 
 class Dog(Animal): # child
     pass
+
+dog = Dog("scooby", "friendly")
+print(dog.name)
+print(dog.type)
+dog.eat()
 
 
 # 2. Multiple Inheritance:
