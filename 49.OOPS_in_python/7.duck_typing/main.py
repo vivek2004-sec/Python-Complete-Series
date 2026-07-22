@@ -21,6 +21,12 @@ animals = [Dog(), Cat(), Car()]
 for animal in animals:
     animal.speak()
     print(animal.alive)
+'''
+Even though in above example car is not animal or any living organism it is being treated as animal cause it is mimicing 
+like an animal showing the animal traits and behavior through the attributes and methods.
+
+'''
+
     
     
     
