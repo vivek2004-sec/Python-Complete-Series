@@ -26,7 +26,7 @@ class Car:
         self.wheels = [Wheel(wheel_size) for wheel in range(4)]
     
     def display_car(self):
-        return f"{self.make} {self.model} {self.engine.horse_power}(hp) {self.wheels[0].size} inches"
+        return f"{self.make} {self.model} {self.engine.horse_power}(hp) {self.wheels[1].size} inches"
 
 car = Car(make="Ford", model="Mustang", horse_power=500, wheel_size=18 )
 print(car.display_car())
