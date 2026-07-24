@@ -104,4 +104,6 @@ author1 = author("George Orwell")
 print(author1.name)
 book1 =book("Time", author1)
 print(book1.author.name)
-        
+    
+del book1
+print(author1.name)
