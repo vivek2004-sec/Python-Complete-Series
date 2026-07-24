@@ -87,3 +87,21 @@ salary = Salary(10000, 1500)
 emp = EmployeeOne('Geek', 25, salary)
 
 print(emp.total_sal())
+
+
+
+class author:
+    def __init__(self, name):
+        self.name = name
+        
+class book:
+    def __init__(self, title, author):
+        self.title = title
+        self.author = author
+        
+
+author1 = author("George Orwell")
+print(author1.name)
+book1 =book("Time", author1)
+print(book1.author.name)
+        
