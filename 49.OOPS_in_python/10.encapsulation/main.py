@@ -1,33 +1,33 @@
-class Bankaccount:
-    def __init__(self, name, balance):
-        self.name = name
-        self.__balance = balance  #private variable
+# class Bankaccount:
+#     def __init__(self, name, balance):
+#         self.name = name
+#         self.__balance = balance  #private variable
         
         
-    def deposit(self, amount):
-        if amount >= 0:
-            self.__balance += amount
+#     def deposit(self, amount):
+#         if amount >= 0:
+#             self.__balance += amount
             
             
-    def withdrawl(self, amount):
-        if 0 < amount <= self.__balance:
-            self.__balance -= amount
+#     def withdrawl(self, amount):
+#         if 0 < amount <= self.__balance:
+#             self.__balance -= amount
             
-        else:
-            print("IN-valid amount")
+#         else:
+#             print("IN-valid amount")
             
-    def get_balance(self):
-        return self.__balance
+#     def get_balance(self):
+#         return self.__balance
 
 
 
-acc1 = Bankaccount("Pappu", 10000)
-acc1.__balance = 100000
-print(acc1.__balance)
-acc1.deposit(5000)
-print("1st", acc1.name, acc1.get_balance())
-acc1.withdrawl(2000)
-print("2nd", acc1.name, acc1.get_balance())
+# acc1 = Bankaccount("Pappu", 10000)
+# acc1.__balance = 100000
+# print(acc1.__balance)
+# acc1.deposit(5000)
+# print("1st", acc1.name, acc1.get_balance())
+# acc1.withdrawl(2000)
+# print("2nd", acc1.name, acc1.get_balance())
 
 
 class TestScores:
@@ -47,12 +47,27 @@ class TestScores:
         
         
 
-    
-        
-        
 
 yash = TestScores('maths', 'science', 'history', 180)
-yash.__total = 250
 yash.add_marks(30)
 
 print(yash.get_marks())
+
+
+
+class Piggybank:
+    def __init__(self, money):
+        self.__money = money
+        
+    def add_money(self, amount):
+        if amount > 0:
+            self.__money += amount
+            
+    def get_balance(self):
+        return self.__money
+    
+    
+a = Piggybank(0)
+print(a.add_money(200))
+print(a.get_balance())
+        
