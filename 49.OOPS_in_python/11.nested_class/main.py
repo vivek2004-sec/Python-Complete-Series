@@ -79,3 +79,32 @@ print(school.list_student())
 
 for student in school.list_student():
     print(student)
+    
+class University:
+    def __init__(self, uni_name):
+        self.uni_name = uni_name
+        self.students = []
+
+    class Student:
+        def __init__(self, std_name, department):
+            self.std_name = std_name
+            self.department = department
+
+
+        def get_std_info(self):
+            return f"{self.std_name} : {self.department}"
+
+
+    def add_student(self, std_name, department):
+        std = self.Student(std_name, department)
+        self.students.append(std)
+
+    def list_students(self):
+        return [student.get_std_info() for student in self.students]
+
+
+uni = University("Oxford")
+print(uni.uni_name)
+
+uni.add_student('vivek', 'cse')
+print(uni.list_students())
