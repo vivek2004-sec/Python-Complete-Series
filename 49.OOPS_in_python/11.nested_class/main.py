@@ -76,3 +76,6 @@ school.add_students(name="sushant", standard= 10)
 school.add_students(name="samarth", standard= 10)
 school.add_students(name="sai", standard= 10)
 print(school.list_student())
+
+for student in school.list_student():
+    print(student)
