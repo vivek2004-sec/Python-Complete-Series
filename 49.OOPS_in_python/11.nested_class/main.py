@@ -37,3 +37,6 @@ company.add_employee("rishi", "SDE II")
 company.add_employee("vikrant", "SDE II")
 
 print(company.list_employees())
+
+for employee in company.list_employees():
+    print(employee)
