@@ -40,3 +40,31 @@ print(company.list_employees())
 
 for employee in company.list_employees():
     print(employee)
+    
+    
+class School:
+    def __init__(self, school_name):
+        self.school_name = school_name
+        self.students = []
+        
+    class Student:
+        def __init__(self, name, standard):
+            self.name = name
+            self.standard = standard
+            
+        
+        def get_student_details(self):
+            return f"{self.name} {self.standard}"
+        
+        
+    def add_students(self, name, standard):
+        new_student = self.Student(name, standard)
+        self.students.append(new_student)
+        
+        
+    def list_student(self):
+        return [student.get_student_detail() for student in self.students]
+        
+        
+school= School(school_name="SMS")
+print(school.school_name)
