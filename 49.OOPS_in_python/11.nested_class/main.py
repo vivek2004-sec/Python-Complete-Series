@@ -54,7 +54,7 @@ class School:
             
         
         def get_student_details(self):
-            return f"{self.name} {self.standard}"
+            return f"{self.name}:{self.standard}"
         
         
     def add_students(self, name, standard):
@@ -63,8 +63,16 @@ class School:
         
         
     def list_student(self):
-        return [student.get_student_detail() for student in self.students]
+        return [student.get_student_details() for student in self.students]
         
         
-school= School(school_name="SMS")
+school= School(school_name="Shraddha Modern School")
 print(school.school_name)
+
+school.add_students(name="vivek", standard= 10)
+school.add_students(name="sujal", standard= 10)
+school.add_students(name="sahil", standard= 10)
+school.add_students(name="sushant", standard= 10)
+school.add_students(name="samarth", standard= 10)
+school.add_students(name="sai", standard= 10)
+print(school.list_student())
