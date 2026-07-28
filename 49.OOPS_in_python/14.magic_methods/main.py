@@ -26,6 +26,10 @@ class Book:
     def __contains__(self, keyword):
         return keyword in self.title or keyword in self.author
     
+    def __getitem__(self, key):
+        if key == "title":
+            return self.title
+    
 book1 = Book("The Hobbit", "J.R.R. Tolkien", 300)
 book2 = Book("The Harry Potter", "J.K.Rowlings", 320)
 book3 = Book("It", "Stephen King", 400)
@@ -39,3 +43,6 @@ print(book3 < book1)
 print(book3 > book1)
 print(book3 + book1)
 print("Hobbit" in book1)
+print("Rowling" in book2)
+print(book1['title'])
+print(book2['title'])
