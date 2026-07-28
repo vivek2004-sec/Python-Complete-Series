@@ -36,11 +36,11 @@ class Employee:
         self.name = name
         self.position = position
         
-        
+    # Instance Method
     def get_info(self):
         return f"{self.name} : {self.position}"
     
-    
+    # Static Methods
     @staticmethod
     def is_valid(position):
         valid_position = ["Manager", "Cahier", "Janitor"]
