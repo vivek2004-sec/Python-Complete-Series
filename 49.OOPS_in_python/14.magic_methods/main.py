@@ -22,6 +22,10 @@ class Book:
     def __add__(self, other):
         return self.num_pages + other.num_pages
     
+    
+    def __contains__(self, keyword):
+        return keyword in self.title or keyword in self.author
+    
 book1 = Book("The Hobbit", "J.R.R. Tolkien", 300)
 book2 = Book("The Harry Potter", "J.K.Rowlings", 320)
 book3 = Book("It", "Stephen King", 400)
@@ -34,3 +38,4 @@ print(book3)
 print(book3 < book1)
 print(book3 > book1)
 print(book3 + book1)
+print("Hobbit" in book1)
