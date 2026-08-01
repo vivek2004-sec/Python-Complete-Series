@@ -1,5 +1,7 @@
 # Arrays in Numpy:
 
+An array is a data structure. used to store items of the same data type as neat, side by side memory spots.
+
 A NumPy array (ndarray) is a collection of elements of the same data type stored in a multidimensional structure. Arrays provide an efficient way to store and perform operations on numerical data.
 
 1.Number of dimensions in an array is called its rank.
