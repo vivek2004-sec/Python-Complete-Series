@@ -7,7 +7,7 @@ A NumPy array (ndarray) is a collection of elements of the same data type stored
 1.Number of dimensions in an array is called its rank.
 -> ndim = number of dimensions
 
-2.Size of the array along each dimension is called its shape.
+2.Size
 -> Size of the array refers to total number of the elements it contains across all the dimensions.
 -> ndarray.size
 the total number of elements of the array. This is equal to the product of the elements of shape.
