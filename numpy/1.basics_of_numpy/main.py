@@ -24,3 +24,5 @@ print(num2)
 num3 = np.ones((2,3))
 print(num3)
 
+a = np.full((2, 2), 9)
+print(a)
