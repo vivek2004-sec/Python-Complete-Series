@@ -26,3 +26,8 @@ print(num3)
 
 a = np.full((2, 2), 9)
 print(a)
+
+# creating sequences in numpy
+
+arr = np.arange(1, 10, 2)
+print(arr)
