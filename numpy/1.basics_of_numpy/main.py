@@ -12,3 +12,15 @@ array = array * 2
 print(array) # output: [2 4 6 8]
 
 print("Dimensions:",array.ndim)
+
+# creating an array
+
+num1 = np.zeros(3)
+print(num1)
+
+num2 = np.ones(3)
+print(num2)
+
+num3 = np.ones((2,3))
+print(num3)
+
