@@ -47,3 +47,11 @@ import numpy as np
 
 num = np.array([1, 32, 3, 4, 55, 5, 12])
 print(np.sort(num))
+
+# Sum 
+
+a = np.array([1,2,3])
+print(a.sum())
+
+b = np.array([[1, 2, 3], [4, 5, 6]])
+print(b.sum(axis=0))
