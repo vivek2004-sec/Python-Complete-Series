@@ -37,3 +37,4 @@ print(array[2:4, 2:4])
 # Filtering the data : 
 arr = np.array([1, 2, 3, 4, 5])
 print(arr[arr < 5])
+print(arr[arr == 5])
