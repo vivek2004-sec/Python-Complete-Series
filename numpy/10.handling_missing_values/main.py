@@ -13,3 +13,9 @@ np.nan_to_num(array)
 '''
 cleane_arr = np.nan_to_num(arr, nan=100)
 print(cleane_arr)
+
+'''
+np.isinf()
+'''
+array = np.array([2, 3, np.inf, 5, np.inf, 7])
+print(np.isinf(array))
