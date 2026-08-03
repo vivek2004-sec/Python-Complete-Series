@@ -11,3 +11,15 @@ import numpy as np
 array = np.array([1, 2, 3, 4, 5, 6])
 reshaped_arr = array.reshape(2, 3)
 print(reshaped_arr)
+
+
+# Flattening: 
+
+# .ravel() --> view 
+# .flatten() --> copy
+
+
+arr = np.array([[1, 2, 3], 
+                [4, 5, 6]])
+print(arr.ravel())
+print(arr.flatten())
