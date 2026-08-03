@@ -22,5 +22,5 @@ print(new_arr)
 arr_2 = np.array([[1, 2],
                   [3, 5]])
 print(arr_2)
-new_arr_2 = np.insert(arr_2, 2, [4, 6], axis=1)
+new_arr_2 = np.insert(arr_2, 2, [4, 6], axis=None)
 print(new_arr_2)
