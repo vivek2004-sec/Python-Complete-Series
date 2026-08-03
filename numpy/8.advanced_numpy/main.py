@@ -12,3 +12,9 @@ import numpy as np
 array = np.array([10, 20, 30, 40, 50, 60])
 new_array = np.insert(array, 2, 35, axis=None)
 print(new_array)
+
+array2 = np.array([[1, 2, 3],
+                   [4, 5, 6]])
+print(array2)
+new_arr = np.insert(array2, 1, [5, 6, 7], axis=0)
+print(new_arr)
