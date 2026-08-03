@@ -19,3 +19,6 @@ np.isinf()
 '''
 array = np.array([2, 3, np.inf, 5, np.inf, 7])
 print(np.isinf(array))
+
+cleaned_array = np.nan_to_num(array, posinf=1000, neginf=1000)
+print(cleaned_array)
