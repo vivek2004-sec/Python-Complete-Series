@@ -18,3 +18,9 @@ students = {
 
 obj = pd.Series(students)
 print(obj)
+
+
+fruits = ('apple', 'mango', 'grapes', 'banana')
+
+shakes = pd.Series(fruits)
+print(shakes)
