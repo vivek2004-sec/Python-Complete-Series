@@ -32,3 +32,4 @@ fruits = ('apple', 'mango', 'grapes', 'banana')
 
 shakes = pd.Series(fruits)
 print(shakes.loc[0])
+print(shakes.iloc[2])
