@@ -9,5 +9,5 @@ df = pd.read_csv('pandas/6.filtering/pokemon.csv')
 # water_pokemon = df[(df["Type1"] == "Water") | (df["Type2"] == "Grass")]
 # grass_pokemon = df[(df["Type1"] == "Grass") | (df["Type2"] == "Water")]
 # pokemon = pd.concat([water_pokemon, grass_pokemon])
-fire_type = df[df["Type1"] == "Fire"]
+fire_type = df[(df["Type1"] == "Fire") & (df["Type2"] == "Flying")]
 print(fire_type)
