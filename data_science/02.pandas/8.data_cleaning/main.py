@@ -21,5 +21,5 @@ df = pd.read_csv('pandas/8.data_cleaning/pokemon.csv')
 
 # 5. changing data types 
 
-df["Legendary"] = df['Legendary'].astype(bool)
+# df["Legendary"] = df['Legendary'].astype(bool)
 print(df.to_string())
