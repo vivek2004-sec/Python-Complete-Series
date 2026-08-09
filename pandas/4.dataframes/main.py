@@ -11,4 +11,5 @@ data = {
 }
 
 df = pd.DataFrame(data, index=[1, 2, 3])
-print(df)
+print(df.loc[3])
+print(df.iloc[0])
