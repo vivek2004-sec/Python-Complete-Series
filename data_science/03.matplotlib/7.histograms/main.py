@@ -9,5 +9,5 @@ import numpy as np
         
 scores = np.random.normal(loc=80, scale=10, size=100)
 scores = np.clip(scores, 0, 100)
-plt.hist(scores, bins=20)
+plt.hist(scores, bins=20, color='cyan',edge='red')
 plt.show()
