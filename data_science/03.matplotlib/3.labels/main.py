@@ -24,5 +24,6 @@ plt.plot(x, y2)
 plt.plot(x, y3)
 
 plt.xticks(x)
-
+plt.tick_params(axis='both', 
+                colors='#3189b8')
 plt.show()
