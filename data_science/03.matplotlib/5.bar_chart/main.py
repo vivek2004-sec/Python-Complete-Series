@@ -19,5 +19,7 @@ values = np.array([300, 230, 450, 220])
 colors = np.array(['red', 'yellow', 'green', 'blue'])
 plt.pie( values, labels=categories, 
         autopct='%1.1f%%', 
-        colors=colors)
+        colors=colors, 
+        explode=[0, 0, 0, 0.1], shadow=True, startangle=80)
+plt.title("Vivek College", fontsize=15)
 plt.show()
