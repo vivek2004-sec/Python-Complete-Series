@@ -7,7 +7,7 @@ import numpy as np
 x = [1, 2, 3, 4, 5]
 y = [5, 10, 15, 10, 25]
 
-plt.grid(axis='both', linewidth=2, linestyle = 'dashed')
+plt.grid(axis='both', linewidth=2, linestyle = 'dashdot')
 plt.plot(x,y, marker='.', 
          markersize=10)
 plt.show()
