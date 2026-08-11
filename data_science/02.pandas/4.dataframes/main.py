@@ -41,4 +41,6 @@ new_row = pd.DataFrame([{"name": 'sai', 'age': 22, 'branch': 'commerce', 'city':
 df = pd.concat([df, new_row])
 print(df)
 
-df.to_csv('vue.csv', index=False)
+# df.to_csv('vue.csv', index=False)
+# df.to_csv('vue.xlsx', index=False)
+df.to_csv('vue.json', index=False)
