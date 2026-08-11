@@ -16,5 +16,10 @@ df = pd.DataFrame(data)
 
 df['gender'] = ['Male', 'Male', 'Male', 'Male','Male', 'Male', 'Female']
 
-print(df)
 
+
+# 2. using insert()
+# df.insert(loc, 'column_name', 'data')
+
+df.insert(0, 'Id', [1, 2, 3, 4, 5, 6, 7])
+print(df)
