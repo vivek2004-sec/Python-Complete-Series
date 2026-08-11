@@ -6,5 +6,10 @@ import pandas as pd
 data = pd.read_csv('data_science/03.matplotlib/9.matplotlib_with_pandas/pokemon.csv')
 type_count = data["Type1"].value_counts(ascending=True)
 
-plt.barh(type_count.index, type_count.values)
+plt.barh(type_count.index, type_count.values, color='cyan', edgecolor='black')
+plt.title("# of pokemon according to types")
+
+plt.xlabel("# of pokemons")
+plt.ylabel("Types")
+plt.tight_layout()
 plt.show()
