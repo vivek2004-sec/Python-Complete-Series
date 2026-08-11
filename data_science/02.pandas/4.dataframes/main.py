@@ -43,4 +43,4 @@ print(df)
 
 # df.to_csv('vue.csv', index=False)
 # df.to_csv('vue.xlsx', index=False)
-df.to_csv('vue.json', index=False)
+# df.to_csv('vue.json', index=False)
