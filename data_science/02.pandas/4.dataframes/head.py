@@ -6,11 +6,12 @@ import pandas as pd
 # info() : gives the information about the dataset
 # describe() : describes  numerical data of the  dataset.
 
-# df = pd.read_csv("data_science/02.pandas/4.dataframes/pokemon.csv")
+df = pd.read_csv("data_science/02.pandas/4.dataframes/pokemon.csv")
 
 # print(df.head(10))
 # print(df.tail(10))
 # print(df.info())
+# print(df.describe())
 
 
 data = {
@@ -19,7 +20,9 @@ data = {
     'Scores': [97, 94, 90, 92, 99, 97, 100 ]
 }
 
-df = pd.DataFrame(data)
-print(df)
-print('The descriptive data: ')
-print(df.describe())
+# df = pd.DataFrame(data)
+# print(df)
+# print('The descriptive data: ')
+# print(df.describe())
+print(df.shape)
+print(df.columns)
