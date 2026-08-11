@@ -2,7 +2,7 @@ import pandas as pd
 
 # Filtering : Keeping the rows that match a condition.
 
-df = pd.read_csv('pandas/6.filtering/pokemon.csv')
+df = pd.read_csv('data_science/02.pandas/6.filtering/pokemon.csv')
 # tall_pokemon = df[df["Height"] > 2
 # heavy_pokemon = df[df["Weight"] > 100]
 # legendary_pokemon = df[df["Legendary"] == True]
