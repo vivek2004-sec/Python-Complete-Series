@@ -40,3 +40,5 @@ new_row = pd.DataFrame([{"name": 'sai', 'age': 22, 'branch': 'commerce', 'city':
                        {"name": 'sushant', 'age': 22, 'branch': 'bio', 'city': 'kolhapur'}], index=[5, 6, 7])
 df = pd.concat([df, new_row])
 print(df)
+
+df.to_csv('vue.csv', index=False)
