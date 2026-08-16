@@ -106,7 +106,7 @@ print(b)
 b <<= a
 # b <<= a : b = b << a
 # b <<= a -> multiply b by 2^a (b * 2^a)
-print(b)
+print( b)
 
 
 
