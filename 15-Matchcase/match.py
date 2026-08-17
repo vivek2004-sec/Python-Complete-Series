@@ -27,3 +27,13 @@ match x:
         print("x is complete.")
         
         
+def day_of_week(day):
+    match day:
+        case 1:
+            print("This is sunday.")
+        case 2:
+            print("This is monday.")
+        case _:
+            print("This is not valid day.")
+            
+print(day_of_week(1))
