@@ -77,3 +77,10 @@ not # logical NOT
 1. IS checks if the variables point to the same object in memory(identity), not just same values.
 2. is not checks if two variables are not belonging to the same object and returns TRUE.
    meaning if two variables do not point to the same object in memory it returns TRUE.
+
+<!-- key notes:  -->
+
+1. If boolean values are used in arithmetic operations, their integer values (1 and 0 for True and False) will be used to
+   return an integer result:
+   True + False == 1 # 1 + 0 == 1
+   True _ True == 1 # 1 _ 1 == 1
