@@ -68,4 +68,5 @@ def encode(code: str) -> str:
 if __name__== "__main__":
     
   print(encode(code))
+  print(encode.__doc__)
 
