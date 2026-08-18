@@ -14,6 +14,7 @@ To use variables effectively, we must follow Python’s naming rules:
 2.A variable name cannot start with a digit.
 3.Variable names are case-sensitive like myVar and myvar are different.
 4.Avoid using Python keywords like if, else, for as variable names.
+5.Variable assignment works left to right.
 
 '''
 # a=1
