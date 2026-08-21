@@ -83,4 +83,4 @@ not # logical NOT
 1. If boolean values are used in arithmetic operations, their integer values (1 and 0 for True and False) will be used to
    return an integer result:
    True + False == 1 # 1 + 0 == 1
-   True _ True == 1 # 1 _ 1 == 1
+   True - True == 1 # 1 - 1 == 1
