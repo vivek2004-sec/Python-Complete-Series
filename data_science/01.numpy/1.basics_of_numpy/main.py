@@ -36,3 +36,6 @@ print(arr)
 
 identity = np.eye(3)
 print(identity)
+
+i = np.identity(4)
+print(i)
