@@ -9,3 +9,5 @@ import sys
 
 print(sys.getsizeof(L)) # gives size in bytes.
 
+x = range(10000000)
+print(sys.getsizeof(x))
