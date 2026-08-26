@@ -28,3 +28,7 @@ print(sys.getsizeof(x))
 # 1. Every iterator is iterable.
 # 2. Not all iterables are iterators.
 
+l = [1, 2, 3]
+print(type(l))
+
+# print(iter(l)) --> iterator
