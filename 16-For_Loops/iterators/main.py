@@ -24,3 +24,7 @@ x = range(1, 10000)
 print(sys.getsizeof(x))
 
 # Iterable: object which one can iterate over.
+
+# 1. Every iterator is iterable.
+# 2. Not all iterables are iterators.
+
