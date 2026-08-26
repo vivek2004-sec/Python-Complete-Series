@@ -47,9 +47,9 @@ for i in mera_range(15, 20):
     
 # print(sys.getsizeof(l))
 
-gen = (i**2 for i in range(1, 100))
+# gen = (i**2 for i in range(1, 100))
 
-for i in gen:
-    print(i)
+# for i in gen:
+#     print(i)
     
-print(sys.getsizeof(gen))
+# print(sys.getsizeof(gen))
