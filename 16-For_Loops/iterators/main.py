@@ -39,3 +39,30 @@ iter_l = iter(a)
 print(iter_l)
 
 #  it there are __iter__ and __next__ then it it iterator.
+
+
+num = [ 1, 2, 3]
+
+iter_num =iter(num)
+
+print(next(iter_num))
+print(next(iter_num))
+print(next(iter_num))
+
+
+def mera_for_loop(iterable):
+    
+    iterator = iter(iterable)
+    
+    while True:
+        try:
+            print(next(iterator))
+        except StopIteration:
+            break
+    
+    
+a = (2, 2, 3)
+b = [1, 2, 3]
+
+mera_for_loop(b)
+mera_for_loop(a)
