@@ -35,4 +35,7 @@ print(sys.getsizeof(x))
 
 
 a = "2"
-print(dir(a))
+iter(a)
+print(dir(iter(a)))
+
+#  it there are __iter__ and __next__ then it it iterator.
