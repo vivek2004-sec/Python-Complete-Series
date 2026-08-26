@@ -27,3 +27,11 @@ print(gen)
 print(next(gen))
 print(next(gen))
 print(next(gen))
+
+
+def mera_range(start, end):
+    
+    for i in range(start, end):
+       yield i
+
+print(mera_range(15, 20))
