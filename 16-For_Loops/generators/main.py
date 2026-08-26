@@ -37,3 +37,19 @@ def mera_range(start, end):
 
 for i in mera_range(15, 20):
     print(i)
+    
+    
+# Generator Expression:
+
+# l = [i**2 for i in range(1, 1011)] # List comprehension
+# for i in l:
+#     print(i)
+    
+# print(sys.getsizeof(l))
+
+gen = (i**2 for i in range(1, 100))
+
+for i in gen:
+    print(i)
+    
+print(sys.getsizeof(gen))
