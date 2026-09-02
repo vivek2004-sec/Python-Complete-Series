@@ -13,11 +13,14 @@ while True:
         items.append(food)
         amount.append(price)
         
-    total += amount
+    
     
 
 print("____shopping Cart_____")
 for food in items:
     print(food)
 
-print(total)
+for i in amount:
+    total += i
+    
+print(f"your total amount is {total}$")
