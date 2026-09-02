@@ -30,6 +30,12 @@ for question in questions:
         print("Invalid Input")
         break
     else:
-        continue
-    
+            guesses.append(guess)
+            if guess == answers[option_number]:
+                score += 1
+                print("Correct!")
+            else:
+                print("Incorrect!")
     option_number += 1
+    
+print(f"Your Score is {score}")
