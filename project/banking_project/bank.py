@@ -5,10 +5,16 @@ def show_balance():
 
 
 def deposit():
-    pass
+    amount = float(input("Enter the amound to be deposited: "))
+    print(f"The deposited amount is {amount:.2f} $. ")
+    
 
 def withdrawl():
-    pass
+    amount = float(input("Enter the amount to withdraw: "))
+    
+    
+        
+    
 
 balance  = 0
 is_running = True
@@ -25,9 +31,9 @@ while is_running:
     if choice == "1":
         show_balance()
     elif choice =="2":
-        deposit()
+        balance += deposit()
     elif choice == "3":
-        withdrawl()
+        balance -= withdrawl()
     elif choice == "4":
         is_running = False
     else:
